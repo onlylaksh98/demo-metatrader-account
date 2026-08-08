@@ -1,0 +1,1884 @@
+2026-08-04 17:37:23.459 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 17:37:23.460 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 17:37:23.461 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 17:37:23.541 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 17:37:23.543 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 17:37:23.543 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 17:37:23.544 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 17:37:23.545 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 17:37:23.545 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 17:37:23.545 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 17:37:23.546 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 17:37:23.546 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 17:37:23.546 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 17:37:23.547 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 17:37:23.547 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 17:37:23.547 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 17:37:23.548 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 17:37:23.548 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 17:37:23.548 | INFO     | mt5.connection:connect:25 - Initializing MT5...
+2026-08-04 17:37:23.552 | ERROR    | mt5.connection:connect:27 - MT5 initialize failed
+2026-08-04 17:37:23.553 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 17:42:39.745 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 17:42:39.748 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 17:42:39.749 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 17:42:39.771 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 17:42:39.773 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 17:42:39.774 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 17:42:39.775 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 17:42:39.776 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 17:42:39.777 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 17:42:39.778 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 17:42:39.779 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 17:42:39.782 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 17:42:39.783 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 17:42:39.784 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 17:42:39.785 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 17:42:39.786 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 17:42:39.787 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 17:42:39.788 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 17:42:39.790 | INFO     | mt5.connection:connect:25 - Initializing MT5...
+2026-08-04 17:42:39.799 | ERROR    | mt5.connection:connect:27 - MT5 initialize failed
+2026-08-04 17:42:39.801 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 17:47:21.168 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 17:47:21.170 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 17:47:21.170 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 17:47:21.190 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 17:47:21.191 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 17:47:21.192 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 17:47:21.192 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 17:47:21.194 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 17:47:21.195 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 17:47:21.196 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 17:47:21.196 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 17:47:21.197 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 17:47:21.198 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 17:47:21.199 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 17:47:21.199 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 17:47:21.199 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 17:47:21.199 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 17:47:21.200 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 17:47:21.200 | INFO     | mt5.connection:connect:25 - Initializing MT5...
+2026-08-04 17:48:27.014 | ERROR    | mt5.connection:connect:27 - MT5 initialize failed
+2026-08-04 17:48:27.015 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 17:48:30.643 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 17:48:30.644 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 17:48:30.644 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 17:48:30.647 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 17:48:30.647 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 17:48:30.648 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 17:48:30.648 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 17:48:30.649 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 17:48:30.649 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 17:48:30.650 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 17:48:30.650 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 17:48:30.650 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 17:48:30.650 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 17:48:30.651 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 17:48:30.651 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 17:48:30.652 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 17:48:30.652 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 17:48:30.652 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 17:48:30.653 | INFO     | mt5.connection:connect:25 - Initializing MT5...
+2026-08-04 17:49:36.455 | ERROR    | mt5.connection:connect:27 - MT5 initialize failed
+2026-08-04 17:49:36.460 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 18:13:23.577 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 18:13:23.578 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 18:13:23.578 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 18:13:23.585 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 18:13:23.585 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 18:13:23.586 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 18:13:23.586 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 18:13:23.587 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 18:13:23.587 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 18:13:23.588 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 18:13:23.588 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 18:13:23.588 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 18:13:23.588 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 18:13:23.589 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 18:13:23.591 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 18:13:23.591 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 18:13:23.592 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 18:13:23.593 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 18:13:23.593 | INFO     | mt5.connection:connect:25 - Initializing MT5...
+2026-08-04 18:13:23.613 | INFO     | mt5.connection:connect:30 - Logging in to account 110567631 on ...
+2026-08-04 18:13:23.614 | ERROR    | mt5.connection:connect:33 - MT5 login failed: (-2, 'Terminal: Invalid params')
+2026-08-04 18:13:23.615 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 18:17:32.775 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 18:17:32.776 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 18:17:32.777 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 18:17:32.799 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 18:17:32.800 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 18:17:32.801 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 18:17:32.801 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 18:17:32.801 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 18:17:32.802 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 18:17:32.803 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 18:17:32.805 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 18:17:32.806 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 18:17:32.807 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 18:17:32.808 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 18:17:32.808 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 18:17:32.809 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 18:17:32.809 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 18:17:32.810 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 18:17:32.810 | INFO     | mt5.connection:connect:25 - Initializing MT5...
+2026-08-04 18:17:32.843 | INFO     | mt5.connection:connect:30 - Logging in to account 110567631 on MetaQuotes-DemoMetaQuotes-Demo...
+2026-08-04 18:18:38.756 | ERROR    | mt5.connection:connect:33 - MT5 login failed: (-10005, 'IPC timeout')
+2026-08-04 18:18:38.758 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 18:24:18.612 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 18:24:18.613 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 18:24:18.614 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 18:24:18.618 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 18:24:18.619 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 18:24:18.619 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 18:24:18.620 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 18:24:18.620 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 18:24:18.621 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 18:24:18.621 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 18:24:18.621 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 18:24:18.622 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 18:24:18.622 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 18:24:18.624 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 18:24:18.625 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 18:24:18.626 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 18:24:18.627 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 18:24:18.627 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 18:24:18.628 | INFO     | mt5.connection:connect:25 - Initializing MT5...
+2026-08-04 18:25:24.064 | ERROR    | mt5.connection:connect:27 - MT5 initialize failed
+2026-08-04 18:25:24.065 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 18:47:45.870 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 18:47:45.870 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 18:47:45.871 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 18:47:45.875 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 18:47:45.875 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 18:47:45.876 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 18:47:45.877 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 18:47:45.877 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 18:47:45.878 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 18:47:45.878 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 18:47:45.880 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 18:47:45.881 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 18:47:45.882 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 18:47:45.882 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 18:47:45.883 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 18:47:45.883 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 18:47:45.885 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 18:47:45.886 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 18:47:45.886 | INFO     | mt5.connection:connect:25 - Initializing MT5...
+2026-08-04 18:48:51.415 | ERROR    | mt5.connection:connect:27 - MT5 initialize failed
+2026-08-04 18:48:51.417 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 18:50:58.834 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 18:50:58.837 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 18:50:58.837 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 18:50:58.840 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 18:50:58.841 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 18:50:58.843 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 18:50:58.845 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 18:50:58.846 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 18:50:58.847 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 18:50:58.848 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 18:50:58.848 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 18:50:58.849 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 18:50:58.849 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 18:50:58.850 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 18:50:58.852 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 18:50:58.852 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 18:50:58.853 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 18:50:58.853 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 18:50:58.854 | INFO     | mt5.connection:connect:25 - Initializing MT5...
+2026-08-04 18:50:58.875 | INFO     | mt5.connection:connect:30 - Logging in to account 110567631 on MetaQuotes-DemoMetaQuotes-Demo...
+2026-08-04 18:52:04.431 | ERROR    | mt5.connection:connect:33 - MT5 login failed: (-10005, 'IPC timeout')
+2026-08-04 18:52:04.433 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 18:54:34.438 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 18:54:34.438 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 18:54:34.439 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 18:54:34.444 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 18:54:34.451 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 18:54:34.451 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 18:54:34.452 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 18:54:34.452 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 18:54:34.453 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 18:54:34.453 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 18:54:34.454 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 18:54:34.454 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 18:54:34.455 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 18:54:34.455 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 18:54:34.456 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 18:54:34.460 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 18:54:34.460 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 18:54:34.461 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 18:54:34.461 | INFO     | mt5.connection:connect:25 - Initializing MT5...
+2026-08-04 18:54:34.480 | INFO     | mt5.connection:connect:30 - Logging in to account 110567631 on MetaQuotes-Demo...
+2026-08-04 18:54:34.481 | INFO     | mt5.connection:connect:38 - MT5 connected and logged in
+2026-08-04 18:54:34.496 | ERROR    | mt5.connection:is_demo:49 - Account 110567631 is NOT demo (trade_mode=0). Trading refused.
+2026-08-04 18:54:34.497 | INFO     | mt5.connection:disconnect:85 - MT5 disconnected
+2026-08-04 18:54:34.497 | ERROR    | __main__:main:41 - TradeManager failed to start: Account is not DEMO. Trading refused.
+2026-08-04 18:55:16.361 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 18:55:16.361 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 18:55:16.362 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 18:55:16.365 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 18:55:16.366 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 18:55:16.371 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 18:55:16.372 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 18:55:16.372 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 18:55:16.373 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 18:55:16.374 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 18:55:16.374 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 18:55:16.374 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 18:55:16.375 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 18:55:16.375 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 18:55:16.376 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 18:55:16.376 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 18:55:16.376 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 18:55:16.376 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 18:55:16.377 | INFO     | mt5.connection:connect:25 - Initializing MT5...
+2026-08-04 18:55:16.396 | INFO     | mt5.connection:connect:30 - Logging in to account 110567631 on MetaQuotes-DemoMetaQuotes-Demo...
+2026-08-04 18:56:12.771 | INFO     | mt5.connection:connect:38 - MT5 connected and logged in
+2026-08-04 18:56:12.773 | ERROR    | mt5.connection:is_demo:49 - Account 110567631 is NOT demo (trade_mode=0). Trading refused.
+2026-08-04 18:56:12.775 | INFO     | mt5.connection:disconnect:85 - MT5 disconnected
+2026-08-04 18:56:12.776 | ERROR    | __main__:main:41 - TradeManager failed to start: Account is not DEMO. Trading refused.
+2026-08-04 18:56:23.826 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 18:56:23.827 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 18:56:23.828 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 18:56:23.834 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 18:56:23.841 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 18:56:23.842 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 18:56:23.842 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 18:56:23.842 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 18:56:23.843 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 18:56:23.843 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 18:56:23.843 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 18:56:23.844 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 18:56:23.844 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 18:56:23.844 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 18:56:23.846 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 18:56:23.847 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 18:56:23.847 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 18:56:23.850 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 18:56:23.850 | INFO     | mt5.connection:connect:25 - Initializing MT5...
+2026-08-04 18:56:23.870 | INFO     | mt5.connection:connect:30 - Logging in to account 110567631 on MetaQuotes-DemoMetaQuotes-Demo...
+2026-08-04 18:57:29.499 | ERROR    | mt5.connection:connect:33 - MT5 login failed: (-10005, 'IPC timeout')
+2026-08-04 18:57:29.501 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 18:58:06.311 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 18:58:06.312 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 18:58:06.313 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 18:58:06.317 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 18:58:06.318 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 18:58:06.319 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 18:58:06.319 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 18:58:06.319 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 18:58:06.320 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 18:58:06.320 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 18:58:06.321 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 18:58:06.321 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 18:58:06.322 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 18:58:06.322 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 18:58:06.322 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 18:58:06.323 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 18:58:06.323 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 18:58:06.323 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 18:58:06.324 | INFO     | mt5.connection:connect:25 - Initializing MT5...
+2026-08-04 18:58:06.342 | INFO     | mt5.connection:connect:30 - Logging in to account 110567631 on MetaQuotes-DemoMetaQuotes-Demo...
+2026-08-04 18:59:12.476 | ERROR    | mt5.connection:connect:33 - MT5 login failed: (-10005, 'IPC timeout')
+2026-08-04 18:59:12.478 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 19:08:20.760 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 19:08:20.761 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 19:08:20.761 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 19:08:20.765 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 19:08:20.766 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 19:08:20.767 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 19:08:20.767 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 19:08:20.768 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 19:08:20.768 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 19:08:20.769 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 19:08:20.769 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 19:08:20.769 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 19:08:20.769 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 19:08:20.770 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 19:08:20.770 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 19:08:20.770 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 19:08:20.771 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 19:08:20.772 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 19:08:20.772 | INFO     | mt5.connection:connect:130 - ============================================================
+2026-08-04 19:08:20.773 | INFO     | mt5.connection:connect:131 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 19:08:20.774 | INFO     | mt5.connection:connect:132 - ============================================================
+2026-08-04 19:08:20.774 | INFO     | mt5.connection:connect:135 - 
+[STEP 1] DETECTING MT5 TERMINAL
+2026-08-04 19:08:20.775 | INFO     | mt5.connection:detect_installations:32 - ============================================================
+2026-08-04 19:08:20.776 | INFO     | mt5.connection:detect_installations:33 - SCANNING FOR INSTALLED METATRADER 5 TERMINALS
+2026-08-04 19:08:20.776 | INFO     | mt5.connection:detect_installations:34 - ============================================================
+2026-08-04 19:08:20.777 | INFO     | mt5.connection:detect_installations:57 - Checking explicit installation paths (8 locations)...
+2026-08-04 19:08:20.778 | INFO     | mt5.connection:detect_installations:64 - Scanning system directories (4 patterns)...
+2026-08-04 19:08:20.802 | WARNING  | mt5.connection:detect_installations:83 - NO METATRADER 5 TERMINALS DETECTED
+2026-08-04 19:08:20.802 | INFO     | mt5.connection:detect_installations:84 - Please install MetaTrader 5 or verify its installation path
+2026-08-04 19:08:20.803 | INFO     | mt5.connection:detect_installations:86 - ============================================================
+2026-08-04 19:08:20.803 | ERROR    | mt5.connection:_detect_and_select_terminal:116 - No MT5 terminals detected. Please install MetaTrader 5.
+2026-08-04 19:08:20.804 | ERROR    | mt5.connection:connect:138 - Connection failed: No MT5 terminal found
+2026-08-04 19:08:20.804 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 19:08:45.436 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 19:08:45.437 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 19:08:45.437 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 19:08:45.440 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 19:08:45.441 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 19:08:45.441 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 19:08:45.442 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 19:08:45.442 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 19:08:45.442 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 19:08:45.443 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 19:08:45.443 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 19:08:45.443 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 19:08:45.443 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 19:08:45.443 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 19:08:45.444 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 19:08:45.444 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 19:08:45.444 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 19:08:45.444 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 19:08:45.445 | INFO     | mt5.connection:connect:130 - ============================================================
+2026-08-04 19:08:45.445 | INFO     | mt5.connection:connect:131 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 19:08:45.445 | INFO     | mt5.connection:connect:132 - ============================================================
+2026-08-04 19:08:45.445 | INFO     | mt5.connection:connect:135 - 
+[STEP 1] DETECTING MT5 TERMINAL
+2026-08-04 19:08:45.446 | INFO     | mt5.connection:detect_installations:32 - ============================================================
+2026-08-04 19:08:45.447 | INFO     | mt5.connection:detect_installations:33 - SCANNING FOR INSTALLED METATRADER 5 TERMINALS
+2026-08-04 19:08:45.447 | INFO     | mt5.connection:detect_installations:34 - ============================================================
+2026-08-04 19:08:45.448 | INFO     | mt5.connection:detect_installations:57 - Checking explicit installation paths (8 locations)...
+2026-08-04 19:08:45.448 | INFO     | mt5.connection:detect_installations:64 - Scanning system directories (4 patterns)...
+2026-08-04 19:08:45.458 | WARNING  | mt5.connection:detect_installations:83 - NO METATRADER 5 TERMINALS DETECTED
+2026-08-04 19:08:45.459 | INFO     | mt5.connection:detect_installations:84 - Please install MetaTrader 5 or verify its installation path
+2026-08-04 19:08:45.459 | INFO     | mt5.connection:detect_installations:86 - ============================================================
+2026-08-04 19:08:45.460 | ERROR    | mt5.connection:_detect_and_select_terminal:116 - No MT5 terminals detected. Please install MetaTrader 5.
+2026-08-04 19:08:45.460 | ERROR    | mt5.connection:connect:138 - Connection failed: No MT5 terminal found
+2026-08-04 19:08:45.460 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 19:09:20.533 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 19:09:20.534 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 19:09:20.535 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 19:09:20.539 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 19:09:20.540 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 19:09:20.540 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 19:09:20.541 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 19:09:20.542 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 19:09:20.542 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 19:09:20.543 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 19:09:20.543 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 19:09:20.543 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 19:09:20.544 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 19:09:20.544 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 19:09:20.544 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 19:09:20.545 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 19:09:20.545 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 19:09:20.546 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 19:09:20.546 | INFO     | mt5.connection:connect:130 - ============================================================
+2026-08-04 19:09:20.547 | INFO     | mt5.connection:connect:131 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 19:09:20.547 | INFO     | mt5.connection:connect:132 - ============================================================
+2026-08-04 19:09:20.547 | INFO     | mt5.connection:connect:135 - 
+[STEP 1] DETECTING MT5 TERMINAL
+2026-08-04 19:09:20.548 | INFO     | mt5.connection:detect_installations:32 - ============================================================
+2026-08-04 19:09:20.548 | INFO     | mt5.connection:detect_installations:33 - SCANNING FOR INSTALLED METATRADER 5 TERMINALS
+2026-08-04 19:09:20.548 | INFO     | mt5.connection:detect_installations:34 - ============================================================
+2026-08-04 19:09:20.549 | INFO     | mt5.connection:detect_installations:57 - Checking explicit installation paths (8 locations)...
+2026-08-04 19:09:20.549 | INFO     | mt5.connection:detect_installations:64 - Scanning system directories (4 patterns)...
+2026-08-04 19:09:20.563 | WARNING  | mt5.connection:detect_installations:83 - NO METATRADER 5 TERMINALS DETECTED
+2026-08-04 19:09:20.565 | INFO     | mt5.connection:detect_installations:84 - Please install MetaTrader 5 or verify its installation path
+2026-08-04 19:09:20.565 | INFO     | mt5.connection:detect_installations:86 - ============================================================
+2026-08-04 19:09:20.566 | ERROR    | mt5.connection:_detect_and_select_terminal:116 - No MT5 terminals detected. Please install MetaTrader 5.
+2026-08-04 19:09:20.566 | ERROR    | mt5.connection:connect:138 - Connection failed: No MT5 terminal found
+2026-08-04 19:09:20.566 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 19:10:30.414 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 19:10:30.415 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 19:10:30.416 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 19:10:30.419 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 19:10:30.421 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 19:10:30.422 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 19:10:30.423 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 19:10:30.423 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 19:10:30.424 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 19:10:30.425 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 19:10:30.425 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 19:10:30.426 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 19:10:30.427 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 19:10:30.427 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 19:10:30.427 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 19:10:30.428 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 19:10:30.429 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 19:10:30.432 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 19:10:30.432 | INFO     | mt5.connection:connect:130 - ============================================================
+2026-08-04 19:10:30.433 | INFO     | mt5.connection:connect:131 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 19:10:30.435 | INFO     | mt5.connection:connect:132 - ============================================================
+2026-08-04 19:10:30.435 | INFO     | mt5.connection:connect:135 - 
+[STEP 1] DETECTING MT5 TERMINAL
+2026-08-04 19:10:30.436 | INFO     | mt5.connection:detect_installations:32 - ============================================================
+2026-08-04 19:10:30.442 | INFO     | mt5.connection:detect_installations:33 - SCANNING FOR INSTALLED METATRADER 5 TERMINALS
+2026-08-04 19:10:30.448 | INFO     | mt5.connection:detect_installations:34 - ============================================================
+2026-08-04 19:10:30.449 | INFO     | mt5.connection:detect_installations:57 - Checking explicit installation paths (8 locations)...
+2026-08-04 19:10:30.449 | INFO     | mt5.connection:detect_installations:64 - Scanning system directories (4 patterns)...
+2026-08-04 19:10:30.460 | WARNING  | mt5.connection:detect_installations:83 - NO METATRADER 5 TERMINALS DETECTED
+2026-08-04 19:10:30.460 | INFO     | mt5.connection:detect_installations:84 - Please install MetaTrader 5 or verify its installation path
+2026-08-04 19:10:30.461 | INFO     | mt5.connection:detect_installations:86 - ============================================================
+2026-08-04 19:10:30.461 | ERROR    | mt5.connection:_detect_and_select_terminal:116 - No MT5 terminals detected. Please install MetaTrader 5.
+2026-08-04 19:10:30.461 | ERROR    | mt5.connection:connect:138 - Connection failed: No MT5 terminal found
+2026-08-04 19:10:30.462 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 19:11:08.781 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 19:11:08.781 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 19:11:08.782 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 19:11:08.787 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 19:11:08.788 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 19:11:08.789 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 19:11:08.790 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 19:11:08.790 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 19:11:08.790 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 19:11:08.791 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 19:11:08.791 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 19:11:08.792 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 19:11:08.793 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 19:11:08.794 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 19:11:08.796 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 19:11:08.798 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 19:11:08.801 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 19:11:08.806 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 19:11:08.807 | INFO     | mt5.connection:connect:130 - ============================================================
+2026-08-04 19:11:08.807 | INFO     | mt5.connection:connect:131 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 19:11:08.808 | INFO     | mt5.connection:connect:132 - ============================================================
+2026-08-04 19:11:08.808 | INFO     | mt5.connection:connect:135 - 
+[STEP 1] DETECTING MT5 TERMINAL
+2026-08-04 19:11:08.809 | INFO     | mt5.connection:detect_installations:32 - ============================================================
+2026-08-04 19:11:08.809 | INFO     | mt5.connection:detect_installations:33 - SCANNING FOR INSTALLED METATRADER 5 TERMINALS
+2026-08-04 19:11:08.809 | INFO     | mt5.connection:detect_installations:34 - ============================================================
+2026-08-04 19:11:08.810 | INFO     | mt5.connection:detect_installations:57 - Checking explicit installation paths (8 locations)...
+2026-08-04 19:11:08.811 | INFO     | mt5.connection:detect_installations:64 - Scanning system directories (4 patterns)...
+2026-08-04 19:11:08.888 | WARNING  | mt5.connection:detect_installations:83 - NO METATRADER 5 TERMINALS DETECTED
+2026-08-04 19:11:08.888 | INFO     | mt5.connection:detect_installations:84 - Please install MetaTrader 5 or verify its installation path
+2026-08-04 19:11:08.889 | INFO     | mt5.connection:detect_installations:86 - ============================================================
+2026-08-04 19:11:08.889 | ERROR    | mt5.connection:_detect_and_select_terminal:116 - No MT5 terminals detected. Please install MetaTrader 5.
+2026-08-04 19:11:08.890 | ERROR    | mt5.connection:connect:138 - Connection failed: No MT5 terminal found
+2026-08-04 19:11:08.891 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 19:22:24.384 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 19:22:24.385 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 19:22:24.385 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 19:22:24.391 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 19:22:24.391 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 19:22:24.392 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 19:22:24.393 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 19:22:24.393 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 19:22:24.393 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 19:22:24.393 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 19:22:24.393 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 19:22:24.394 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 19:22:24.394 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 19:22:24.395 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 19:22:24.395 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 19:22:24.395 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 19:22:24.396 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 19:22:24.396 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 19:22:24.396 | INFO     | mt5.connection:connect:130 - ============================================================
+2026-08-04 19:22:24.397 | INFO     | mt5.connection:connect:131 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 19:22:24.397 | INFO     | mt5.connection:connect:132 - ============================================================
+2026-08-04 19:22:24.397 | INFO     | mt5.connection:connect:135 - 
+[STEP 1] DETECTING MT5 TERMINAL
+2026-08-04 19:22:24.398 | INFO     | mt5.connection:detect_installations:32 - ============================================================
+2026-08-04 19:22:24.398 | INFO     | mt5.connection:detect_installations:33 - SCANNING FOR INSTALLED METATRADER 5 TERMINALS
+2026-08-04 19:22:24.398 | INFO     | mt5.connection:detect_installations:34 - ============================================================
+2026-08-04 19:22:24.399 | INFO     | mt5.connection:detect_installations:57 - Checking explicit installation paths (8 locations)...
+2026-08-04 19:22:24.399 | INFO     | mt5.connection:detect_installations:64 - Scanning system directories (4 patterns)...
+2026-08-04 19:22:24.413 | WARNING  | mt5.connection:detect_installations:83 - NO METATRADER 5 TERMINALS DETECTED
+2026-08-04 19:22:24.413 | INFO     | mt5.connection:detect_installations:84 - Please install MetaTrader 5 or verify its installation path
+2026-08-04 19:22:24.414 | INFO     | mt5.connection:detect_installations:86 - ============================================================
+2026-08-04 19:22:24.414 | ERROR    | mt5.connection:_detect_and_select_terminal:116 - No MT5 terminals detected. Please install MetaTrader 5.
+2026-08-04 19:22:24.415 | ERROR    | mt5.connection:connect:138 - Connection failed: No MT5 terminal found
+2026-08-04 19:22:24.415 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 19:27:53.255 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 19:27:53.256 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 19:27:53.257 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 19:27:53.260 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 19:27:53.261 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 19:27:53.262 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 19:27:53.262 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 19:27:53.263 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 19:27:53.263 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 19:27:53.263 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 19:27:53.264 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 19:27:53.264 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 19:27:53.265 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 19:27:53.265 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 19:27:53.267 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 19:27:53.267 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 19:27:53.267 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 19:27:53.268 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 19:27:53.268 | INFO     | mt5.connection:connect:246 - 
+============================================================
+2026-08-04 19:27:53.269 | INFO     | mt5.connection:connect:247 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 19:27:53.269 | INFO     | mt5.connection:connect:248 - ============================================================
+2026-08-04 19:27:53.269 | INFO     | mt5.connection:connect:251 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 19:27:53.270 | INFO     | mt5.connection:detect_all:145 - ============================================================
+2026-08-04 19:27:53.270 | INFO     | mt5.connection:detect_all:146 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 19:27:53.271 | INFO     | mt5.connection:detect_all:147 - ============================================================
+2026-08-04 19:27:53.272 | INFO     | mt5.connection:detect_all:152 - 
+[Detection] Checking Windows Registry...
+2026-08-04 19:27:53.276 | DEBUG    | mt5.connection:find_in_registry:34 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 19:27:53.277 | INFO     | mt5.connection:detect_all:157 - [Detection] Scanning Program Files...
+2026-08-04 19:27:53.278 | DEBUG    | mt5.connection:find_in_program_files:72 - Scanning Program Files directories...
+2026-08-04 19:27:53.278 | DEBUG    | mt5.connection:find_in_program_files:84 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:27:53.284 | INFO     | mt5.connection:detect_all:162 - [Detection] Checking running processes...
+2026-08-04 19:27:53.285 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 19:27:53.305 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:27:53.311 | INFO     | mt5.connection:detect_all:177 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 19:27:53.312 | INFO     | mt5.connection:detect_all:179 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:27:53.313 | INFO     | mt5.connection:detect_all:184 - ============================================================
+2026-08-04 19:27:53.313 | INFO     | mt5.connection:_detect_and_select_terminal:228 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:27:53.313 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 19:27:53.317 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:27:53.318 | INFO     | mt5.connection:connect:256 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:27:53.319 | INFO     | mt5.connection:connect:259 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 19:27:53.319 | INFO     | mt5.connection:connect:260 -   Account: 110567631
+2026-08-04 19:27:53.320 | INFO     | mt5.connection:connect:261 -   Server: MetaQuotes-Demo
+2026-08-04 19:27:53.320 | INFO     | mt5.connection:connect:262 -   Timeout: 60000ms (60 seconds)
+2026-08-04 19:27:53.320 | INFO     | mt5.connection:connect:263 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:27:53.323 | INFO     | mt5.connection:connect:275 -   mt5.initialize() returned: True
+2026-08-04 19:27:53.324 | INFO     | mt5.connection:connect:294 -   ✓ Initialization SUCCESSFUL
+2026-08-04 19:27:53.324 | INFO     | mt5.connection:connect:301 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 19:27:53.325 | INFO     | mt5.connection:connect:306 -   ✓ Version: 500
+2026-08-04 19:27:53.325 | INFO     | mt5.connection:connect:307 -   Build: 6090
+2026-08-04 19:27:53.325 | INFO     | mt5.connection:connect:308 -   Release: 31 Jul 2026
+2026-08-04 19:27:53.326 | INFO     | mt5.connection:connect:315 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 19:27:53.327 | INFO     | mt5.connection:connect:320 -   ✓ Terminal connected: True
+2026-08-04 19:27:53.327 | INFO     | mt5.connection:connect:321 -   ✓ Trade allowed: False
+2026-08-04 19:27:53.328 | ERROR    | mt5.connection:connect:337 -   ✗ Exception getting terminal info: 'TerminalInfo' object has no attribute 'tradeapi'
+2026-08-04 19:27:53.328 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 19:29:51.687 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 19:29:51.688 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 19:29:51.688 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 19:29:51.691 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 19:29:51.692 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 19:29:51.692 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 19:29:51.693 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 19:29:51.693 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 19:29:51.694 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 19:29:51.694 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 19:29:51.694 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 19:29:51.694 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 19:29:51.695 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 19:29:51.695 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 19:29:51.695 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 19:29:51.696 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 19:29:51.696 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 19:29:51.696 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 19:29:51.696 | INFO     | mt5.connection:connect:246 - 
+============================================================
+2026-08-04 19:29:51.697 | INFO     | mt5.connection:connect:247 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 19:29:51.697 | INFO     | mt5.connection:connect:248 - ============================================================
+2026-08-04 19:29:51.698 | INFO     | mt5.connection:connect:251 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 19:29:51.698 | INFO     | mt5.connection:detect_all:145 - ============================================================
+2026-08-04 19:29:51.699 | INFO     | mt5.connection:detect_all:146 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 19:29:51.699 | INFO     | mt5.connection:detect_all:147 - ============================================================
+2026-08-04 19:29:51.699 | INFO     | mt5.connection:detect_all:152 - 
+[Detection] Checking Windows Registry...
+2026-08-04 19:29:51.699 | DEBUG    | mt5.connection:find_in_registry:34 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 19:29:51.700 | INFO     | mt5.connection:detect_all:157 - [Detection] Scanning Program Files...
+2026-08-04 19:29:51.700 | DEBUG    | mt5.connection:find_in_program_files:72 - Scanning Program Files directories...
+2026-08-04 19:29:51.700 | DEBUG    | mt5.connection:find_in_program_files:84 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:29:51.706 | INFO     | mt5.connection:detect_all:162 - [Detection] Checking running processes...
+2026-08-04 19:29:51.708 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 19:29:51.728 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:29:51.736 | INFO     | mt5.connection:detect_all:177 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 19:29:51.737 | INFO     | mt5.connection:detect_all:179 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:29:51.738 | INFO     | mt5.connection:detect_all:184 - ============================================================
+2026-08-04 19:29:51.740 | INFO     | mt5.connection:_detect_and_select_terminal:228 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:29:51.741 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 19:29:51.744 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:29:51.746 | INFO     | mt5.connection:connect:256 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:29:51.746 | INFO     | mt5.connection:connect:259 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 19:29:51.747 | INFO     | mt5.connection:connect:260 -   Account: 110567631
+2026-08-04 19:29:51.748 | INFO     | mt5.connection:connect:261 -   Server: MetaQuotes-Demo
+2026-08-04 19:29:51.748 | INFO     | mt5.connection:connect:262 -   Timeout: 60000ms (60 seconds)
+2026-08-04 19:29:51.749 | INFO     | mt5.connection:connect:263 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:29:51.752 | INFO     | mt5.connection:connect:275 -   mt5.initialize() returned: True
+2026-08-04 19:29:51.755 | INFO     | mt5.connection:connect:294 -   ✓ Initialization SUCCESSFUL
+2026-08-04 19:29:51.756 | INFO     | mt5.connection:connect:301 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 19:29:51.758 | INFO     | mt5.connection:connect:306 -   ✓ Version: 500
+2026-08-04 19:29:51.759 | INFO     | mt5.connection:connect:307 -   Build: 6090
+2026-08-04 19:29:51.759 | INFO     | mt5.connection:connect:308 -   Release: 31 Jul 2026
+2026-08-04 19:29:51.759 | INFO     | mt5.connection:connect:315 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 19:29:51.761 | INFO     | mt5.connection:connect:320 -   ✓ Terminal connected: True
+2026-08-04 19:29:51.761 | INFO     | mt5.connection:connect:321 -   ✓ Trade allowed: False
+2026-08-04 19:29:51.761 | ERROR    | mt5.connection:connect:337 -   ✗ Exception getting terminal info: 'TerminalInfo' object has no attribute 'tradeapi'
+2026-08-04 19:29:51.762 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 19:35:22.674 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 19:35:22.675 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 19:35:22.676 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 19:35:22.680 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 19:35:22.680 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 19:35:22.681 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 19:35:22.682 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 19:35:22.682 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 19:35:22.683 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 19:35:22.683 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 19:35:22.685 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 19:35:22.686 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 19:35:22.686 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 19:35:22.687 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 19:35:22.687 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 19:35:22.688 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 19:35:22.688 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 19:35:22.689 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 19:35:22.689 | INFO     | mt5.connection:connect:246 - 
+============================================================
+2026-08-04 19:35:22.689 | INFO     | mt5.connection:connect:247 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 19:35:22.689 | INFO     | mt5.connection:connect:248 - ============================================================
+2026-08-04 19:35:22.689 | INFO     | mt5.connection:connect:251 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 19:35:22.690 | INFO     | mt5.connection:detect_all:145 - ============================================================
+2026-08-04 19:35:22.690 | INFO     | mt5.connection:detect_all:146 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 19:35:22.690 | INFO     | mt5.connection:detect_all:147 - ============================================================
+2026-08-04 19:35:22.691 | INFO     | mt5.connection:detect_all:152 - 
+[Detection] Checking Windows Registry...
+2026-08-04 19:35:22.691 | DEBUG    | mt5.connection:find_in_registry:34 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 19:35:22.691 | INFO     | mt5.connection:detect_all:157 - [Detection] Scanning Program Files...
+2026-08-04 19:35:22.691 | DEBUG    | mt5.connection:find_in_program_files:72 - Scanning Program Files directories...
+2026-08-04 19:35:22.692 | DEBUG    | mt5.connection:find_in_program_files:84 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:35:22.698 | INFO     | mt5.connection:detect_all:162 - [Detection] Checking running processes...
+2026-08-04 19:35:22.698 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 19:35:22.716 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:35:22.721 | INFO     | mt5.connection:detect_all:177 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 19:35:22.722 | INFO     | mt5.connection:detect_all:179 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:35:22.722 | INFO     | mt5.connection:detect_all:184 - ============================================================
+2026-08-04 19:35:22.723 | INFO     | mt5.connection:_detect_and_select_terminal:228 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:35:22.723 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 19:35:22.725 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:35:22.728 | INFO     | mt5.connection:connect:256 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:35:22.729 | INFO     | mt5.connection:connect:259 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 19:35:22.729 | INFO     | mt5.connection:connect:260 -   Account: 110567631
+2026-08-04 19:35:22.730 | INFO     | mt5.connection:connect:261 -   Server: MetaQuotes-Demo
+2026-08-04 19:35:22.730 | INFO     | mt5.connection:connect:262 -   Timeout: 60000ms (60 seconds)
+2026-08-04 19:35:22.730 | INFO     | mt5.connection:connect:263 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:35:22.733 | INFO     | mt5.connection:connect:275 -   mt5.initialize() returned: True
+2026-08-04 19:35:22.734 | INFO     | mt5.connection:connect:294 -   ✓ Initialization SUCCESSFUL
+2026-08-04 19:35:22.735 | INFO     | mt5.connection:connect:301 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 19:35:22.735 | INFO     | mt5.connection:connect:306 -   ✓ Version: 500
+2026-08-04 19:35:22.736 | INFO     | mt5.connection:connect:307 -   Build: 6090
+2026-08-04 19:35:22.737 | INFO     | mt5.connection:connect:308 -   Release: 31 Jul 2026
+2026-08-04 19:35:22.737 | INFO     | mt5.connection:connect:315 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 19:35:22.739 | DEBUG    | mt5.connection:connect:320 -   Terminal Info object: TerminalInfo(community_account=False, community_connection=False, connected=True, dlls_allowed=True, trade_allowed=False, tradeapi_disabled=False, email_enabled=False, ftp_enabled=False, notifications_enabled=False, mqid=True, build=6090, maxbars=100000, codepage=0, ping_last=265470, community_balance=0.0, retransmission=1.002800272458942, company='MetaQuotes Ltd.', name='MetaTrader 5', language='English', path='C:\\Program Files\\MetaTrader 5', data_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075', commondata_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\Common')
+2026-08-04 19:35:22.739 | INFO     | mt5.connection:connect:321 -   ✓ Terminal connected: True
+2026-08-04 19:35:22.740 | INFO     | mt5.connection:connect:322 -   ✓ Trade allowed: False
+2026-08-04 19:35:22.740 | ERROR    | mt5.connection:connect:335 -   ✗ Exception getting terminal info: 'TerminalInfo' object has no attribute 'connectionstatus'
+2026-08-04 19:35:22.740 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 19:35:40.112 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 19:35:40.112 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 19:35:40.113 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 19:35:40.116 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 19:35:40.116 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 19:35:40.116 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 19:35:40.117 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 19:35:40.117 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 19:35:40.118 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 19:35:40.118 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 19:35:40.118 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 19:35:40.119 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 19:35:40.119 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 19:35:40.119 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 19:35:40.120 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 19:35:40.121 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 19:35:40.121 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 19:35:40.122 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 19:35:40.122 | INFO     | mt5.connection:connect:246 - 
+============================================================
+2026-08-04 19:35:40.122 | INFO     | mt5.connection:connect:247 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 19:35:40.123 | INFO     | mt5.connection:connect:248 - ============================================================
+2026-08-04 19:35:40.123 | INFO     | mt5.connection:connect:251 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 19:35:40.123 | INFO     | mt5.connection:detect_all:145 - ============================================================
+2026-08-04 19:35:40.124 | INFO     | mt5.connection:detect_all:146 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 19:35:40.124 | INFO     | mt5.connection:detect_all:147 - ============================================================
+2026-08-04 19:35:40.124 | INFO     | mt5.connection:detect_all:152 - 
+[Detection] Checking Windows Registry...
+2026-08-04 19:35:40.125 | DEBUG    | mt5.connection:find_in_registry:34 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 19:35:40.126 | INFO     | mt5.connection:detect_all:157 - [Detection] Scanning Program Files...
+2026-08-04 19:35:40.127 | DEBUG    | mt5.connection:find_in_program_files:72 - Scanning Program Files directories...
+2026-08-04 19:35:40.128 | DEBUG    | mt5.connection:find_in_program_files:84 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:35:40.132 | INFO     | mt5.connection:detect_all:162 - [Detection] Checking running processes...
+2026-08-04 19:35:40.133 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 19:35:40.152 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:35:40.157 | INFO     | mt5.connection:detect_all:177 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 19:35:40.158 | INFO     | mt5.connection:detect_all:179 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:35:40.159 | INFO     | mt5.connection:detect_all:184 - ============================================================
+2026-08-04 19:35:40.160 | INFO     | mt5.connection:_detect_and_select_terminal:228 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:35:40.161 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 19:35:40.164 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:35:40.165 | INFO     | mt5.connection:connect:256 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:35:40.166 | INFO     | mt5.connection:connect:259 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 19:35:40.166 | INFO     | mt5.connection:connect:260 -   Account: 110567631
+2026-08-04 19:35:40.166 | INFO     | mt5.connection:connect:261 -   Server: MetaQuotes-Demo
+2026-08-04 19:35:40.166 | INFO     | mt5.connection:connect:262 -   Timeout: 60000ms (60 seconds)
+2026-08-04 19:35:40.167 | INFO     | mt5.connection:connect:263 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 19:35:40.170 | INFO     | mt5.connection:connect:275 -   mt5.initialize() returned: True
+2026-08-04 19:35:40.171 | INFO     | mt5.connection:connect:294 -   ✓ Initialization SUCCESSFUL
+2026-08-04 19:35:40.171 | INFO     | mt5.connection:connect:301 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 19:35:40.172 | INFO     | mt5.connection:connect:306 -   ✓ Version: 500
+2026-08-04 19:35:40.173 | INFO     | mt5.connection:connect:307 -   Build: 6090
+2026-08-04 19:35:40.173 | INFO     | mt5.connection:connect:308 -   Release: 31 Jul 2026
+2026-08-04 19:35:40.173 | INFO     | mt5.connection:connect:315 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 19:35:40.175 | DEBUG    | mt5.connection:connect:320 -   Terminal Info object: TerminalInfo(community_account=False, community_connection=False, connected=True, dlls_allowed=True, trade_allowed=False, tradeapi_disabled=False, email_enabled=False, ftp_enabled=False, notifications_enabled=False, mqid=True, build=6090, maxbars=100000, codepage=0, ping_last=265470, community_balance=0.0, retransmission=1.002800272458942, company='MetaQuotes Ltd.', name='MetaTrader 5', language='English', path='C:\\Program Files\\MetaTrader 5', data_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075', commondata_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\Common')
+2026-08-04 19:35:40.176 | INFO     | mt5.connection:connect:321 -   ✓ Terminal connected: True
+2026-08-04 19:35:40.177 | INFO     | mt5.connection:connect:322 -   ✓ Trade allowed: False
+2026-08-04 19:35:40.178 | ERROR    | mt5.connection:connect:335 -   ✗ Exception getting terminal info: 'TerminalInfo' object has no attribute 'connectionstatus'
+2026-08-04 19:35:40.179 | ERROR    | __main__:main:41 - TradeManager failed to start: Failed to connect to MT5
+2026-08-04 20:00:46.361 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 20:00:46.362 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 20:00:46.363 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 20:00:46.373 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 20:00:46.374 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 20:00:46.374 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 20:00:46.374 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 20:00:46.374 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 20:00:46.375 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 20:00:46.375 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 20:00:46.375 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 20:00:46.375 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 20:00:46.375 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 20:00:46.376 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 20:00:46.376 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 20:00:46.376 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 20:00:46.376 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 20:00:46.376 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 20:00:46.376 | INFO     | mt5.connection:connect:246 - 
+============================================================
+2026-08-04 20:00:46.376 | INFO     | mt5.connection:connect:247 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 20:00:46.377 | INFO     | mt5.connection:connect:248 - ============================================================
+2026-08-04 20:00:46.377 | INFO     | mt5.connection:connect:251 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 20:00:46.377 | INFO     | mt5.connection:detect_all:145 - ============================================================
+2026-08-04 20:00:46.377 | INFO     | mt5.connection:detect_all:146 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 20:00:46.377 | INFO     | mt5.connection:detect_all:147 - ============================================================
+2026-08-04 20:00:46.377 | INFO     | mt5.connection:detect_all:152 - 
+[Detection] Checking Windows Registry...
+2026-08-04 20:00:46.377 | DEBUG    | mt5.connection:find_in_registry:34 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 20:00:46.377 | INFO     | mt5.connection:detect_all:157 - [Detection] Scanning Program Files...
+2026-08-04 20:00:46.378 | DEBUG    | mt5.connection:find_in_program_files:72 - Scanning Program Files directories...
+2026-08-04 20:00:46.378 | DEBUG    | mt5.connection:find_in_program_files:84 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:00:46.381 | INFO     | mt5.connection:detect_all:162 - [Detection] Checking running processes...
+2026-08-04 20:00:46.381 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 20:00:46.390 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:00:46.393 | INFO     | mt5.connection:detect_all:177 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 20:00:46.394 | INFO     | mt5.connection:detect_all:179 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:00:46.394 | INFO     | mt5.connection:detect_all:184 - ============================================================
+2026-08-04 20:00:46.394 | INFO     | mt5.connection:_detect_and_select_terminal:228 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:00:46.394 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 20:00:46.396 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:00:46.397 | INFO     | mt5.connection:connect:256 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:00:46.397 | INFO     | mt5.connection:connect:259 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 20:00:46.397 | INFO     | mt5.connection:connect:260 -   Account: 110567631
+2026-08-04 20:00:46.397 | INFO     | mt5.connection:connect:261 -   Server: MetaQuotes-Demo
+2026-08-04 20:00:46.397 | INFO     | mt5.connection:connect:262 -   Timeout: 60000ms (60 seconds)
+2026-08-04 20:00:46.398 | INFO     | mt5.connection:connect:263 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:00:46.401 | INFO     | mt5.connection:connect:275 -   mt5.initialize() returned: True
+2026-08-04 20:00:46.401 | INFO     | mt5.connection:connect:294 -   ✓ Initialization SUCCESSFUL
+2026-08-04 20:00:46.402 | INFO     | mt5.connection:connect:301 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 20:00:46.402 | INFO     | mt5.connection:connect:306 -   ✓ Version: 500
+2026-08-04 20:00:46.402 | INFO     | mt5.connection:connect:307 -   Build: 6090
+2026-08-04 20:00:46.402 | INFO     | mt5.connection:connect:308 -   Release: 31 Jul 2026
+2026-08-04 20:00:46.402 | INFO     | mt5.connection:connect:315 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 20:00:46.404 | DEBUG    | mt5.connection:connect:320 -   Terminal Info object: TerminalInfo(community_account=False, community_connection=False, connected=True, dlls_allowed=True, trade_allowed=False, tradeapi_disabled=False, email_enabled=False, ftp_enabled=False, notifications_enabled=False, mqid=True, build=6090, maxbars=100000, codepage=0, ping_last=265470, community_balance=0.0, retransmission=2.810715322814829, company='MetaQuotes Ltd.', name='MetaTrader 5', language='English', path='C:\\Program Files\\MetaTrader 5', data_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075', commondata_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\Common')
+2026-08-04 20:00:46.404 | INFO     | mt5.connection:connect:329 -   ✓ Terminal connected: True
+2026-08-04 20:00:46.404 | INFO     | mt5.connection:connect:330 -   ✓ Trade allowed: False
+2026-08-04 20:00:46.404 | INFO     | mt5.connection:connect:331 -   ✓ TradeAPI disabled: False
+2026-08-04 20:00:46.405 | WARNING  | mt5.connection:connect:336 -   ⚠ Trading not allowed in terminal
+2026-08-04 20:00:46.405 | INFO     | mt5.connection:connect:347 - 
+[STEP 5] VERIFYING ACCOUNT INFO
+2026-08-04 20:00:46.405 | INFO     | mt5.connection:connect:352 -   ✓ Login: 110567631
+2026-08-04 20:00:46.406 | INFO     | mt5.connection:connect:353 -   ✓ Name: Sai Gangawane
+2026-08-04 20:00:46.406 | INFO     | mt5.connection:connect:354 -   ✓ Balance: 5000.0
+2026-08-04 20:00:46.406 | INFO     | mt5.connection:connect:355 -   ✓ Equity: 5000.0
+2026-08-04 20:00:46.406 | INFO     | mt5.connection:connect:356 -   ✓ Trade mode: 0
+2026-08-04 20:00:46.406 | INFO     | mt5.connection:connect:357 -   ✓ Trade allowed: True
+2026-08-04 20:00:46.406 | INFO     | mt5.connection:connect:370 - 
+============================================================
+2026-08-04 20:00:46.406 | INFO     | mt5.connection:connect:371 - ✓ MT5 CONNECTION SUCCESSFUL
+2026-08-04 20:00:46.407 | INFO     | mt5.connection:connect:372 - ============================================================
+2026-08-04 20:00:46.407 | ERROR    | mt5.connection:is_demo:386 - Account 110567631 is NOT demo (trade_mode=0). Trading refused.
+2026-08-04 20:00:46.407 | INFO     | mt5.connection:disconnect:436 - MT5 disconnected
+2026-08-04 20:00:46.407 | ERROR    | __main__:main:41 - TradeManager failed to start: Account is not DEMO. Trading refused.
+2026-08-04 20:00:55.100 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 20:00:55.100 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 20:00:55.100 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 20:00:55.103 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 20:00:55.103 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 20:00:55.103 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 20:00:55.103 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 20:00:55.103 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 20:00:55.103 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 20:00:55.104 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 20:00:55.104 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 20:00:55.104 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 20:00:55.104 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 20:00:55.104 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 20:00:55.104 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 20:00:55.104 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 20:00:55.105 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 20:00:55.105 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 20:00:55.105 | INFO     | mt5.connection:connect:246 - 
+============================================================
+2026-08-04 20:00:55.105 | INFO     | mt5.connection:connect:247 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 20:00:55.105 | INFO     | mt5.connection:connect:248 - ============================================================
+2026-08-04 20:00:55.105 | INFO     | mt5.connection:connect:251 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 20:00:55.106 | INFO     | mt5.connection:detect_all:145 - ============================================================
+2026-08-04 20:00:55.106 | INFO     | mt5.connection:detect_all:146 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 20:00:55.106 | INFO     | mt5.connection:detect_all:147 - ============================================================
+2026-08-04 20:00:55.107 | INFO     | mt5.connection:detect_all:152 - 
+[Detection] Checking Windows Registry...
+2026-08-04 20:00:55.107 | DEBUG    | mt5.connection:find_in_registry:34 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 20:00:55.107 | INFO     | mt5.connection:detect_all:157 - [Detection] Scanning Program Files...
+2026-08-04 20:00:55.107 | DEBUG    | mt5.connection:find_in_program_files:72 - Scanning Program Files directories...
+2026-08-04 20:00:55.108 | DEBUG    | mt5.connection:find_in_program_files:84 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:00:55.110 | INFO     | mt5.connection:detect_all:162 - [Detection] Checking running processes...
+2026-08-04 20:00:55.110 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 20:00:55.120 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:00:55.124 | INFO     | mt5.connection:detect_all:177 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 20:00:55.124 | INFO     | mt5.connection:detect_all:179 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:00:55.125 | INFO     | mt5.connection:detect_all:184 - ============================================================
+2026-08-04 20:00:55.125 | INFO     | mt5.connection:_detect_and_select_terminal:228 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:00:55.125 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 20:00:55.127 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:00:55.127 | INFO     | mt5.connection:connect:256 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:00:55.128 | INFO     | mt5.connection:connect:259 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 20:00:55.128 | INFO     | mt5.connection:connect:260 -   Account: 110567631
+2026-08-04 20:00:55.128 | INFO     | mt5.connection:connect:261 -   Server: MetaQuotes-Demo
+2026-08-04 20:00:55.129 | INFO     | mt5.connection:connect:262 -   Timeout: 60000ms (60 seconds)
+2026-08-04 20:00:55.129 | INFO     | mt5.connection:connect:263 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:00:55.131 | INFO     | mt5.connection:connect:275 -   mt5.initialize() returned: True
+2026-08-04 20:00:55.131 | INFO     | mt5.connection:connect:294 -   ✓ Initialization SUCCESSFUL
+2026-08-04 20:00:55.131 | INFO     | mt5.connection:connect:301 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 20:00:55.132 | INFO     | mt5.connection:connect:306 -   ✓ Version: 500
+2026-08-04 20:00:55.132 | INFO     | mt5.connection:connect:307 -   Build: 6090
+2026-08-04 20:00:55.132 | INFO     | mt5.connection:connect:308 -   Release: 31 Jul 2026
+2026-08-04 20:00:55.133 | INFO     | mt5.connection:connect:315 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 20:00:55.134 | DEBUG    | mt5.connection:connect:320 -   Terminal Info object: TerminalInfo(community_account=False, community_connection=False, connected=True, dlls_allowed=True, trade_allowed=False, tradeapi_disabled=False, email_enabled=False, ftp_enabled=False, notifications_enabled=False, mqid=True, build=6090, maxbars=100000, codepage=0, ping_last=265470, community_balance=0.0, retransmission=2.810715322814829, company='MetaQuotes Ltd.', name='MetaTrader 5', language='English', path='C:\\Program Files\\MetaTrader 5', data_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075', commondata_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\Common')
+2026-08-04 20:00:55.134 | INFO     | mt5.connection:connect:329 -   ✓ Terminal connected: True
+2026-08-04 20:00:55.135 | INFO     | mt5.connection:connect:330 -   ✓ Trade allowed: False
+2026-08-04 20:00:55.135 | INFO     | mt5.connection:connect:331 -   ✓ TradeAPI disabled: False
+2026-08-04 20:00:55.135 | WARNING  | mt5.connection:connect:336 -   ⚠ Trading not allowed in terminal
+2026-08-04 20:00:55.135 | INFO     | mt5.connection:connect:347 - 
+[STEP 5] VERIFYING ACCOUNT INFO
+2026-08-04 20:00:55.135 | INFO     | mt5.connection:connect:352 -   ✓ Login: 110567631
+2026-08-04 20:00:55.136 | INFO     | mt5.connection:connect:353 -   ✓ Name: Sai Gangawane
+2026-08-04 20:00:55.136 | INFO     | mt5.connection:connect:354 -   ✓ Balance: 5000.0
+2026-08-04 20:00:55.136 | INFO     | mt5.connection:connect:355 -   ✓ Equity: 5000.0
+2026-08-04 20:00:55.136 | INFO     | mt5.connection:connect:356 -   ✓ Trade mode: 0
+2026-08-04 20:00:55.137 | INFO     | mt5.connection:connect:357 -   ✓ Trade allowed: True
+2026-08-04 20:00:55.137 | INFO     | mt5.connection:connect:370 - 
+============================================================
+2026-08-04 20:00:55.137 | INFO     | mt5.connection:connect:371 - ✓ MT5 CONNECTION SUCCESSFUL
+2026-08-04 20:00:55.137 | INFO     | mt5.connection:connect:372 - ============================================================
+2026-08-04 20:00:55.137 | ERROR    | mt5.connection:is_demo:386 - Account 110567631 is NOT demo (trade_mode=0). Trading refused.
+2026-08-04 20:00:55.137 | INFO     | mt5.connection:disconnect:436 - MT5 disconnected
+2026-08-04 20:00:55.138 | ERROR    | __main__:main:41 - TradeManager failed to start: Account is not DEMO. Trading refused.
+2026-08-04 20:02:16.392 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 20:02:16.393 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 20:02:16.393 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 20:02:16.395 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 20:02:16.396 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 20:02:16.396 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 20:02:16.396 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 20:02:16.396 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 20:02:16.396 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 20:02:16.397 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 20:02:16.397 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 20:02:16.397 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 20:02:16.397 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 20:02:16.397 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 20:02:16.397 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 20:02:16.397 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 20:02:16.398 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 20:02:16.398 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 20:02:16.398 | INFO     | mt5.connection:connect:246 - 
+============================================================
+2026-08-04 20:02:16.398 | INFO     | mt5.connection:connect:247 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 20:02:16.398 | INFO     | mt5.connection:connect:248 - ============================================================
+2026-08-04 20:02:16.399 | INFO     | mt5.connection:connect:251 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 20:02:16.399 | INFO     | mt5.connection:detect_all:145 - ============================================================
+2026-08-04 20:02:16.399 | INFO     | mt5.connection:detect_all:146 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 20:02:16.399 | INFO     | mt5.connection:detect_all:147 - ============================================================
+2026-08-04 20:02:16.399 | INFO     | mt5.connection:detect_all:152 - 
+[Detection] Checking Windows Registry...
+2026-08-04 20:02:16.400 | DEBUG    | mt5.connection:find_in_registry:34 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 20:02:16.400 | INFO     | mt5.connection:detect_all:157 - [Detection] Scanning Program Files...
+2026-08-04 20:02:16.400 | DEBUG    | mt5.connection:find_in_program_files:72 - Scanning Program Files directories...
+2026-08-04 20:02:16.400 | DEBUG    | mt5.connection:find_in_program_files:84 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:02:16.403 | INFO     | mt5.connection:detect_all:162 - [Detection] Checking running processes...
+2026-08-04 20:02:16.403 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 20:02:16.411 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:02:16.415 | INFO     | mt5.connection:detect_all:177 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 20:02:16.415 | INFO     | mt5.connection:detect_all:179 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:02:16.416 | INFO     | mt5.connection:detect_all:184 - ============================================================
+2026-08-04 20:02:16.416 | INFO     | mt5.connection:_detect_and_select_terminal:228 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:02:16.416 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 20:02:16.418 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:02:16.419 | INFO     | mt5.connection:connect:256 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:02:16.419 | INFO     | mt5.connection:connect:259 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 20:02:16.419 | INFO     | mt5.connection:connect:260 -   Account: 110567631
+2026-08-04 20:02:16.419 | INFO     | mt5.connection:connect:261 -   Server: MetaQuotes-Demo
+2026-08-04 20:02:16.419 | INFO     | mt5.connection:connect:262 -   Timeout: 60000ms (60 seconds)
+2026-08-04 20:02:16.419 | INFO     | mt5.connection:connect:263 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:02:16.422 | INFO     | mt5.connection:connect:275 -   mt5.initialize() returned: True
+2026-08-04 20:02:16.422 | INFO     | mt5.connection:connect:294 -   ✓ Initialization SUCCESSFUL
+2026-08-04 20:02:16.422 | INFO     | mt5.connection:connect:301 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 20:02:16.423 | INFO     | mt5.connection:connect:306 -   ✓ Version: 500
+2026-08-04 20:02:16.423 | INFO     | mt5.connection:connect:307 -   Build: 6090
+2026-08-04 20:02:16.423 | INFO     | mt5.connection:connect:308 -   Release: 31 Jul 2026
+2026-08-04 20:02:16.423 | INFO     | mt5.connection:connect:315 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 20:02:16.424 | DEBUG    | mt5.connection:connect:320 -   Terminal Info object: TerminalInfo(community_account=False, community_connection=False, connected=True, dlls_allowed=True, trade_allowed=False, tradeapi_disabled=False, email_enabled=False, ftp_enabled=False, notifications_enabled=False, mqid=True, build=6090, maxbars=100000, codepage=0, ping_last=265470, community_balance=0.0, retransmission=2.810715322814829, company='MetaQuotes Ltd.', name='MetaTrader 5', language='English', path='C:\\Program Files\\MetaTrader 5', data_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075', commondata_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\Common')
+2026-08-04 20:02:16.425 | INFO     | mt5.connection:connect:329 -   ✓ Terminal connected: True
+2026-08-04 20:02:16.425 | INFO     | mt5.connection:connect:330 -   ✓ Trade allowed: False
+2026-08-04 20:02:16.425 | INFO     | mt5.connection:connect:331 -   ✓ TradeAPI disabled: False
+2026-08-04 20:02:16.425 | WARNING  | mt5.connection:connect:336 -   ⚠ Trading not allowed in terminal
+2026-08-04 20:02:16.425 | INFO     | mt5.connection:connect:347 - 
+[STEP 5] VERIFYING ACCOUNT INFO
+2026-08-04 20:02:16.425 | INFO     | mt5.connection:connect:352 -   ✓ Login: 110567631
+2026-08-04 20:02:16.426 | INFO     | mt5.connection:connect:353 -   ✓ Name: Sai Gangawane
+2026-08-04 20:02:16.426 | INFO     | mt5.connection:connect:354 -   ✓ Balance: 5000.0
+2026-08-04 20:02:16.426 | INFO     | mt5.connection:connect:355 -   ✓ Equity: 5000.0
+2026-08-04 20:02:16.426 | INFO     | mt5.connection:connect:356 -   ✓ Trade mode: 0
+2026-08-04 20:02:16.426 | INFO     | mt5.connection:connect:357 -   ✓ Trade allowed: True
+2026-08-04 20:02:16.426 | INFO     | mt5.connection:connect:370 - 
+============================================================
+2026-08-04 20:02:16.426 | INFO     | mt5.connection:connect:371 - ✓ MT5 CONNECTION SUCCESSFUL
+2026-08-04 20:02:16.426 | INFO     | mt5.connection:connect:372 - ============================================================
+2026-08-04 20:02:16.427 | ERROR    | mt5.connection:is_demo:386 - Account 110567631 is NOT demo (trade_mode=0). Trading refused.
+2026-08-04 20:02:16.427 | INFO     | mt5.connection:disconnect:436 - MT5 disconnected
+2026-08-04 20:02:16.427 | ERROR    | __main__:main:41 - TradeManager failed to start: Account is not DEMO. Trading refused.
+2026-08-04 20:12:05.438 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 20:12:05.438 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 20:12:05.439 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 20:12:05.443 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 20:12:05.443 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 20:12:05.444 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 20:12:05.444 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 20:12:05.445 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 20:12:05.445 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 20:12:05.446 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 20:12:05.446 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 20:12:05.446 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 20:12:05.447 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 20:12:05.447 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 20:12:05.447 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 20:12:05.448 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 20:12:05.448 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 20:12:05.449 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 20:12:05.449 | INFO     | mt5.connection:connect:246 - 
+============================================================
+2026-08-04 20:12:05.450 | INFO     | mt5.connection:connect:247 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 20:12:05.450 | INFO     | mt5.connection:connect:248 - ============================================================
+2026-08-04 20:12:05.450 | INFO     | mt5.connection:connect:251 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 20:12:05.451 | INFO     | mt5.connection:detect_all:145 - ============================================================
+2026-08-04 20:12:05.451 | INFO     | mt5.connection:detect_all:146 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 20:12:05.452 | INFO     | mt5.connection:detect_all:147 - ============================================================
+2026-08-04 20:12:05.452 | INFO     | mt5.connection:detect_all:152 - 
+[Detection] Checking Windows Registry...
+2026-08-04 20:12:05.453 | DEBUG    | mt5.connection:find_in_registry:34 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 20:12:05.453 | INFO     | mt5.connection:detect_all:157 - [Detection] Scanning Program Files...
+2026-08-04 20:12:05.453 | DEBUG    | mt5.connection:find_in_program_files:72 - Scanning Program Files directories...
+2026-08-04 20:12:05.454 | DEBUG    | mt5.connection:find_in_program_files:84 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:12:05.460 | INFO     | mt5.connection:detect_all:162 - [Detection] Checking running processes...
+2026-08-04 20:12:05.461 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 20:12:05.507 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:12:05.517 | INFO     | mt5.connection:detect_all:177 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 20:12:05.518 | INFO     | mt5.connection:detect_all:179 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:12:05.519 | INFO     | mt5.connection:detect_all:184 - ============================================================
+2026-08-04 20:12:05.519 | INFO     | mt5.connection:_detect_and_select_terminal:228 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:12:05.520 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 20:12:05.523 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:12:05.524 | INFO     | mt5.connection:connect:256 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:12:05.525 | INFO     | mt5.connection:connect:259 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 20:12:05.525 | INFO     | mt5.connection:connect:260 -   Account: 110567631
+2026-08-04 20:12:05.526 | INFO     | mt5.connection:connect:261 -   Server: MetaQuotes-Demo
+2026-08-04 20:12:05.527 | INFO     | mt5.connection:connect:262 -   Timeout: 60000ms (60 seconds)
+2026-08-04 20:12:05.527 | INFO     | mt5.connection:connect:263 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 20:12:05.530 | INFO     | mt5.connection:connect:275 -   mt5.initialize() returned: True
+2026-08-04 20:12:05.531 | INFO     | mt5.connection:connect:294 -   ✓ Initialization SUCCESSFUL
+2026-08-04 20:12:05.531 | INFO     | mt5.connection:connect:301 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 20:12:05.532 | INFO     | mt5.connection:connect:306 -   ✓ Version: 500
+2026-08-04 20:12:05.532 | INFO     | mt5.connection:connect:307 -   Build: 6090
+2026-08-04 20:12:05.533 | INFO     | mt5.connection:connect:308 -   Release: 31 Jul 2026
+2026-08-04 20:12:05.533 | INFO     | mt5.connection:connect:315 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 20:12:05.535 | DEBUG    | mt5.connection:connect:320 -   Terminal Info object: TerminalInfo(community_account=False, community_connection=False, connected=True, dlls_allowed=True, trade_allowed=False, tradeapi_disabled=False, email_enabled=False, ftp_enabled=False, notifications_enabled=False, mqid=True, build=6090, maxbars=100000, codepage=0, ping_last=265470, community_balance=0.0, retransmission=3.3385004487231784, company='MetaQuotes Ltd.', name='MetaTrader 5', language='English', path='C:\\Program Files\\MetaTrader 5', data_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075', commondata_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\Common')
+2026-08-04 20:12:05.535 | INFO     | mt5.connection:connect:329 -   ✓ Terminal connected: True
+2026-08-04 20:12:05.535 | INFO     | mt5.connection:connect:330 -   ✓ Trade allowed: False
+2026-08-04 20:12:05.536 | INFO     | mt5.connection:connect:331 -   ✓ TradeAPI disabled: False
+2026-08-04 20:12:05.536 | WARNING  | mt5.connection:connect:336 -   ⚠ Trading not allowed in terminal
+2026-08-04 20:12:05.536 | INFO     | mt5.connection:connect:347 - 
+[STEP 5] VERIFYING ACCOUNT INFO
+2026-08-04 20:12:05.536 | INFO     | mt5.connection:connect:352 -   ✓ Login: 110567631
+2026-08-04 20:12:05.537 | INFO     | mt5.connection:connect:353 -   ✓ Name: Sai Gangawane
+2026-08-04 20:12:05.537 | INFO     | mt5.connection:connect:354 -   ✓ Balance: 5000.0
+2026-08-04 20:12:05.539 | INFO     | mt5.connection:connect:355 -   ✓ Equity: 4999.93
+2026-08-04 20:12:05.540 | INFO     | mt5.connection:connect:356 -   ✓ Trade mode: 0
+2026-08-04 20:12:05.541 | INFO     | mt5.connection:connect:357 -   ✓ Trade allowed: True
+2026-08-04 20:12:05.541 | INFO     | mt5.connection:connect:370 - 
+============================================================
+2026-08-04 20:12:05.541 | INFO     | mt5.connection:connect:371 - ✓ MT5 CONNECTION SUCCESSFUL
+2026-08-04 20:12:05.542 | INFO     | mt5.connection:connect:372 - ============================================================
+2026-08-04 20:12:05.542 | ERROR    | mt5.connection:is_demo:386 - Account 110567631 is NOT demo (trade_mode=0). Trading refused.
+2026-08-04 20:12:05.542 | INFO     | mt5.connection:disconnect:436 - MT5 disconnected
+2026-08-04 20:12:05.543 | ERROR    | __main__:main:41 - TradeManager failed to start: Account is not DEMO. Trading refused.
+2026-08-04 21:59:15.242 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 21:59:15.242 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 21:59:15.243 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 21:59:15.246 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 21:59:15.247 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 21:59:15.248 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 21:59:15.248 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 21:59:15.249 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 21:59:15.249 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 21:59:15.249 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 21:59:15.250 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 21:59:15.250 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 21:59:15.250 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 21:59:15.251 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 21:59:15.251 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 21:59:15.251 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 21:59:15.252 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 21:59:15.252 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 21:59:15.253 | INFO     | mt5.connection:connect:246 - 
+============================================================
+2026-08-04 21:59:15.253 | INFO     | mt5.connection:connect:247 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 21:59:15.253 | INFO     | mt5.connection:connect:248 - ============================================================
+2026-08-04 21:59:15.254 | INFO     | mt5.connection:connect:251 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 21:59:15.254 | INFO     | mt5.connection:detect_all:145 - ============================================================
+2026-08-04 21:59:15.254 | INFO     | mt5.connection:detect_all:146 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 21:59:15.255 | INFO     | mt5.connection:detect_all:147 - ============================================================
+2026-08-04 21:59:15.255 | INFO     | mt5.connection:detect_all:152 - 
+[Detection] Checking Windows Registry...
+2026-08-04 21:59:15.255 | DEBUG    | mt5.connection:find_in_registry:34 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 21:59:15.255 | INFO     | mt5.connection:detect_all:157 - [Detection] Scanning Program Files...
+2026-08-04 21:59:15.256 | DEBUG    | mt5.connection:find_in_program_files:72 - Scanning Program Files directories...
+2026-08-04 21:59:15.256 | DEBUG    | mt5.connection:find_in_program_files:84 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 21:59:15.260 | INFO     | mt5.connection:detect_all:162 - [Detection] Checking running processes...
+2026-08-04 21:59:15.261 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 21:59:15.285 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 21:59:15.292 | INFO     | mt5.connection:detect_all:177 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 21:59:15.292 | INFO     | mt5.connection:detect_all:179 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 21:59:15.293 | INFO     | mt5.connection:detect_all:184 - ============================================================
+2026-08-04 21:59:15.295 | INFO     | mt5.connection:_detect_and_select_terminal:228 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 21:59:15.296 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 21:59:15.298 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 21:59:15.300 | INFO     | mt5.connection:connect:256 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 21:59:15.301 | INFO     | mt5.connection:connect:259 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 21:59:15.301 | INFO     | mt5.connection:connect:260 -   Account: 110567631
+2026-08-04 21:59:15.302 | INFO     | mt5.connection:connect:261 -   Server: MetaQuotes-Demo
+2026-08-04 21:59:15.303 | INFO     | mt5.connection:connect:262 -   Timeout: 60000ms (60 seconds)
+2026-08-04 21:59:15.303 | INFO     | mt5.connection:connect:263 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 21:59:15.306 | INFO     | mt5.connection:connect:275 -   mt5.initialize() returned: True
+2026-08-04 21:59:15.307 | INFO     | mt5.connection:connect:294 -   ✓ Initialization SUCCESSFUL
+2026-08-04 21:59:15.307 | INFO     | mt5.connection:connect:301 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 21:59:15.307 | INFO     | mt5.connection:connect:306 -   ✓ Version: 500
+2026-08-04 21:59:15.307 | INFO     | mt5.connection:connect:307 -   Build: 6090
+2026-08-04 21:59:15.308 | INFO     | mt5.connection:connect:308 -   Release: 31 Jul 2026
+2026-08-04 21:59:15.308 | INFO     | mt5.connection:connect:315 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 21:59:15.309 | DEBUG    | mt5.connection:connect:320 -   Terminal Info object: TerminalInfo(community_account=False, community_connection=False, connected=True, dlls_allowed=True, trade_allowed=False, tradeapi_disabled=False, email_enabled=False, ftp_enabled=False, notifications_enabled=False, mqid=True, build=6090, maxbars=100000, codepage=0, ping_last=558463, community_balance=0.0, retransmission=0.2811167119038387, company='MetaQuotes Ltd.', name='MetaTrader 5', language='English', path='C:\\Program Files\\MetaTrader 5', data_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075', commondata_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\Common')
+2026-08-04 21:59:15.310 | INFO     | mt5.connection:connect:329 -   ✓ Terminal connected: True
+2026-08-04 21:59:15.310 | INFO     | mt5.connection:connect:330 -   ✓ Trade allowed: False
+2026-08-04 21:59:15.311 | INFO     | mt5.connection:connect:331 -   ✓ TradeAPI disabled: False
+2026-08-04 21:59:15.312 | WARNING  | mt5.connection:connect:336 -   ⚠ Trading not allowed in terminal
+2026-08-04 21:59:15.312 | INFO     | mt5.connection:connect:347 - 
+[STEP 5] VERIFYING ACCOUNT INFO
+2026-08-04 21:59:15.313 | INFO     | mt5.connection:connect:352 -   ✓ Login: 110567631
+2026-08-04 21:59:15.313 | INFO     | mt5.connection:connect:353 -   ✓ Name: Sai Gangawane
+2026-08-04 21:59:15.314 | INFO     | mt5.connection:connect:354 -   ✓ Balance: 5000.0
+2026-08-04 21:59:15.314 | INFO     | mt5.connection:connect:355 -   ✓ Equity: 4998.55
+2026-08-04 21:59:15.314 | INFO     | mt5.connection:connect:356 -   ✓ Trade mode: 0
+2026-08-04 21:59:15.315 | INFO     | mt5.connection:connect:357 -   ✓ Trade allowed: True
+2026-08-04 21:59:15.315 | INFO     | mt5.connection:connect:370 - 
+============================================================
+2026-08-04 21:59:15.315 | INFO     | mt5.connection:connect:371 - ✓ MT5 CONNECTION SUCCESSFUL
+2026-08-04 21:59:15.315 | INFO     | mt5.connection:connect:372 - ============================================================
+2026-08-04 21:59:15.316 | ERROR    | mt5.connection:is_demo:386 - Account 110567631 is NOT demo (trade_mode=0). Trading refused.
+2026-08-04 21:59:15.316 | INFO     | mt5.connection:disconnect:436 - MT5 disconnected
+2026-08-04 21:59:15.316 | ERROR    | __main__:main:41 - TradeManager failed to start: Account is not DEMO. Trading refused.
+2026-08-04 22:01:25.706 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 22:01:25.707 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 22:01:25.708 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 22:01:25.712 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 22:01:25.712 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 22:01:25.713 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 22:01:25.713 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 22:01:25.714 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 22:01:25.714 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 22:01:25.714 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 22:01:25.714 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 22:01:25.715 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 22:01:25.715 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 22:01:25.715 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 22:01:25.715 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 22:01:25.716 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 22:01:25.716 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 22:01:25.717 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 22:01:25.718 | INFO     | mt5.connection:connect:246 - 
+============================================================
+2026-08-04 22:01:25.718 | INFO     | mt5.connection:connect:247 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 22:01:25.718 | INFO     | mt5.connection:connect:248 - ============================================================
+2026-08-04 22:01:25.719 | INFO     | mt5.connection:connect:251 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 22:01:25.719 | INFO     | mt5.connection:detect_all:145 - ============================================================
+2026-08-04 22:01:25.719 | INFO     | mt5.connection:detect_all:146 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 22:01:25.720 | INFO     | mt5.connection:detect_all:147 - ============================================================
+2026-08-04 22:01:25.720 | INFO     | mt5.connection:detect_all:152 - 
+[Detection] Checking Windows Registry...
+2026-08-04 22:01:25.720 | DEBUG    | mt5.connection:find_in_registry:34 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 22:01:25.721 | INFO     | mt5.connection:detect_all:157 - [Detection] Scanning Program Files...
+2026-08-04 22:01:25.721 | DEBUG    | mt5.connection:find_in_program_files:72 - Scanning Program Files directories...
+2026-08-04 22:01:25.722 | DEBUG    | mt5.connection:find_in_program_files:84 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:01:25.726 | INFO     | mt5.connection:detect_all:162 - [Detection] Checking running processes...
+2026-08-04 22:01:25.726 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:01:25.745 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:01:25.753 | INFO     | mt5.connection:detect_all:177 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 22:01:25.754 | INFO     | mt5.connection:detect_all:179 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:01:25.754 | INFO     | mt5.connection:detect_all:184 - ============================================================
+2026-08-04 22:01:25.755 | INFO     | mt5.connection:_detect_and_select_terminal:228 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:01:25.755 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:01:25.757 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:01:25.759 | INFO     | mt5.connection:connect:256 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:01:25.759 | INFO     | mt5.connection:connect:259 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 22:01:25.760 | INFO     | mt5.connection:connect:260 -   Account: 110567631
+2026-08-04 22:01:25.761 | INFO     | mt5.connection:connect:261 -   Server: MetaQuotes-Demo
+2026-08-04 22:01:25.762 | INFO     | mt5.connection:connect:262 -   Timeout: 60000ms (60 seconds)
+2026-08-04 22:01:25.763 | INFO     | mt5.connection:connect:263 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:01:25.766 | INFO     | mt5.connection:connect:275 -   mt5.initialize() returned: True
+2026-08-04 22:01:25.766 | INFO     | mt5.connection:connect:294 -   ✓ Initialization SUCCESSFUL
+2026-08-04 22:01:25.769 | INFO     | mt5.connection:connect:301 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 22:01:25.769 | INFO     | mt5.connection:connect:306 -   ✓ Version: 500
+2026-08-04 22:01:25.770 | INFO     | mt5.connection:connect:307 -   Build: 6090
+2026-08-04 22:01:25.770 | INFO     | mt5.connection:connect:308 -   Release: 31 Jul 2026
+2026-08-04 22:01:25.771 | INFO     | mt5.connection:connect:315 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 22:01:25.772 | DEBUG    | mt5.connection:connect:320 -   Terminal Info object: TerminalInfo(community_account=False, community_connection=False, connected=True, dlls_allowed=True, trade_allowed=False, tradeapi_disabled=False, email_enabled=False, ftp_enabled=False, notifications_enabled=False, mqid=True, build=6090, maxbars=100000, codepage=0, ping_last=150578, community_balance=0.0, retransmission=0.2811167119038387, company='MetaQuotes Ltd.', name='MetaTrader 5', language='English', path='C:\\Program Files\\MetaTrader 5', data_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075', commondata_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\Common')
+2026-08-04 22:01:25.773 | INFO     | mt5.connection:connect:329 -   ✓ Terminal connected: True
+2026-08-04 22:01:25.773 | INFO     | mt5.connection:connect:330 -   ✓ Trade allowed: False
+2026-08-04 22:01:25.773 | INFO     | mt5.connection:connect:331 -   ✓ TradeAPI disabled: False
+2026-08-04 22:01:25.774 | WARNING  | mt5.connection:connect:336 -   ⚠ Trading not allowed in terminal
+2026-08-04 22:01:25.774 | INFO     | mt5.connection:connect:347 - 
+[STEP 5] VERIFYING ACCOUNT INFO
+2026-08-04 22:01:25.774 | INFO     | mt5.connection:connect:352 -   ✓ Login: 110567631
+2026-08-04 22:01:25.774 | INFO     | mt5.connection:connect:353 -   ✓ Name: Sai Gangawane
+2026-08-04 22:01:25.775 | INFO     | mt5.connection:connect:354 -   ✓ Balance: 4998.37
+2026-08-04 22:01:25.775 | INFO     | mt5.connection:connect:355 -   ✓ Equity: 4998.37
+2026-08-04 22:01:25.776 | INFO     | mt5.connection:connect:356 -   ✓ Trade mode: 0
+2026-08-04 22:01:25.777 | INFO     | mt5.connection:connect:357 -   ✓ Trade allowed: True
+2026-08-04 22:01:25.777 | INFO     | mt5.connection:connect:370 - 
+============================================================
+2026-08-04 22:01:25.777 | INFO     | mt5.connection:connect:371 - ✓ MT5 CONNECTION SUCCESSFUL
+2026-08-04 22:01:25.777 | INFO     | mt5.connection:connect:372 - ============================================================
+2026-08-04 22:01:25.778 | ERROR    | mt5.connection:is_demo:386 - Account 110567631 is NOT demo (trade_mode=0). Trading refused.
+2026-08-04 22:01:25.778 | INFO     | mt5.connection:disconnect:436 - MT5 disconnected
+2026-08-04 22:01:25.778 | ERROR    | __main__:main:41 - TradeManager failed to start: Account is not DEMO. Trading refused.
+2026-08-04 22:06:35.569 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 22:06:35.570 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 22:06:35.571 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 22:06:35.575 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 22:06:35.575 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 22:06:35.577 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 22:06:35.577 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 22:06:35.579 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 22:06:35.579 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 22:06:35.581 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 22:06:35.581 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 22:06:35.583 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 22:06:35.583 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 22:06:35.583 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 22:06:35.584 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 22:06:35.584 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 22:06:35.584 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 22:06:35.585 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 22:06:35.586 | INFO     | mt5.connection:connect:246 - 
+============================================================
+2026-08-04 22:06:35.586 | INFO     | mt5.connection:connect:247 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 22:06:35.592 | INFO     | mt5.connection:connect:248 - ============================================================
+2026-08-04 22:06:35.593 | INFO     | mt5.connection:connect:251 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 22:06:35.594 | INFO     | mt5.connection:detect_all:145 - ============================================================
+2026-08-04 22:06:35.594 | INFO     | mt5.connection:detect_all:146 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 22:06:35.595 | INFO     | mt5.connection:detect_all:147 - ============================================================
+2026-08-04 22:06:35.595 | INFO     | mt5.connection:detect_all:152 - 
+[Detection] Checking Windows Registry...
+2026-08-04 22:06:35.595 | DEBUG    | mt5.connection:find_in_registry:34 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 22:06:35.596 | INFO     | mt5.connection:detect_all:157 - [Detection] Scanning Program Files...
+2026-08-04 22:06:35.598 | DEBUG    | mt5.connection:find_in_program_files:72 - Scanning Program Files directories...
+2026-08-04 22:06:35.599 | DEBUG    | mt5.connection:find_in_program_files:84 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:06:35.603 | INFO     | mt5.connection:detect_all:162 - [Detection] Checking running processes...
+2026-08-04 22:06:35.604 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:06:35.634 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:06:35.644 | INFO     | mt5.connection:detect_all:177 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 22:06:35.645 | INFO     | mt5.connection:detect_all:179 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:06:35.645 | INFO     | mt5.connection:detect_all:184 - ============================================================
+2026-08-04 22:06:35.645 | INFO     | mt5.connection:_detect_and_select_terminal:228 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:06:35.646 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:06:35.649 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:06:35.651 | INFO     | mt5.connection:connect:256 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:06:35.651 | INFO     | mt5.connection:connect:259 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 22:06:35.652 | INFO     | mt5.connection:connect:260 -   Account: 110567631
+2026-08-04 22:06:35.652 | INFO     | mt5.connection:connect:261 -   Server: MetaQuotes-Demo
+2026-08-04 22:06:35.653 | INFO     | mt5.connection:connect:262 -   Timeout: 60000ms (60 seconds)
+2026-08-04 22:06:35.653 | INFO     | mt5.connection:connect:263 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:06:35.659 | INFO     | mt5.connection:connect:275 -   mt5.initialize() returned: True
+2026-08-04 22:06:35.660 | INFO     | mt5.connection:connect:294 -   ✓ Initialization SUCCESSFUL
+2026-08-04 22:06:35.661 | INFO     | mt5.connection:connect:301 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 22:06:35.661 | INFO     | mt5.connection:connect:306 -   ✓ Version: 500
+2026-08-04 22:06:35.661 | INFO     | mt5.connection:connect:307 -   Build: 6090
+2026-08-04 22:06:35.662 | INFO     | mt5.connection:connect:308 -   Release: 31 Jul 2026
+2026-08-04 22:06:35.662 | INFO     | mt5.connection:connect:315 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 22:06:35.664 | DEBUG    | mt5.connection:connect:320 -   Terminal Info object: TerminalInfo(community_account=False, community_connection=False, connected=True, dlls_allowed=True, trade_allowed=False, tradeapi_disabled=False, email_enabled=False, ftp_enabled=False, notifications_enabled=False, mqid=True, build=6090, maxbars=100000, codepage=0, ping_last=150578, community_balance=0.0, retransmission=0.9073210153179297, company='MetaQuotes Ltd.', name='MetaTrader 5', language='English', path='C:\\Program Files\\MetaTrader 5', data_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075', commondata_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\Common')
+2026-08-04 22:06:35.665 | INFO     | mt5.connection:connect:329 -   ✓ Terminal connected: True
+2026-08-04 22:06:35.665 | INFO     | mt5.connection:connect:330 -   ✓ Trade allowed: False
+2026-08-04 22:06:35.666 | INFO     | mt5.connection:connect:331 -   ✓ TradeAPI disabled: False
+2026-08-04 22:06:35.666 | WARNING  | mt5.connection:connect:336 -   ⚠ Trading not allowed in terminal
+2026-08-04 22:06:35.666 | INFO     | mt5.connection:connect:347 - 
+[STEP 5] VERIFYING ACCOUNT INFO
+2026-08-04 22:06:35.666 | INFO     | mt5.connection:connect:352 -   ✓ Login: 110567631
+2026-08-04 22:06:35.667 | INFO     | mt5.connection:connect:353 -   ✓ Name: Sai Gangawane
+2026-08-04 22:06:35.667 | INFO     | mt5.connection:connect:354 -   ✓ Balance: 4998.37
+2026-08-04 22:06:35.668 | INFO     | mt5.connection:connect:355 -   ✓ Equity: 4998.37
+2026-08-04 22:06:35.668 | INFO     | mt5.connection:connect:356 -   ✓ Trade mode: 0
+2026-08-04 22:06:35.668 | INFO     | mt5.connection:connect:357 -   ✓ Trade allowed: True
+2026-08-04 22:06:35.668 | INFO     | mt5.connection:connect:370 - 
+============================================================
+2026-08-04 22:06:35.669 | INFO     | mt5.connection:connect:371 - ✓ MT5 CONNECTION SUCCESSFUL
+2026-08-04 22:06:35.669 | INFO     | mt5.connection:connect:372 - ============================================================
+2026-08-04 22:06:35.669 | ERROR    | mt5.connection:is_demo:386 - Account 110567631 is NOT demo (trade_mode=0). Trading refused.
+2026-08-04 22:06:35.669 | INFO     | mt5.connection:disconnect:436 - MT5 disconnected
+2026-08-04 22:06:35.670 | ERROR    | __main__:main:41 - TradeManager failed to start: Account is not DEMO. Trading refused.
+2026-08-04 22:09:29.363 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 22:09:29.364 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 22:09:29.364 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 22:09:29.376 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 22:09:29.376 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 22:09:29.377 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 22:09:29.378 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 22:09:29.379 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 22:09:29.379 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 22:09:29.380 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 22:09:29.381 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 22:09:29.382 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 22:09:29.383 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 22:09:29.384 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 22:09:29.385 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 22:09:29.387 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 22:09:29.389 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 22:09:29.390 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 22:09:29.391 | INFO     | mt5.connection:connect:246 - 
+============================================================
+2026-08-04 22:09:29.391 | INFO     | mt5.connection:connect:247 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 22:09:29.391 | INFO     | mt5.connection:connect:248 - ============================================================
+2026-08-04 22:09:29.392 | INFO     | mt5.connection:connect:251 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 22:09:29.395 | INFO     | mt5.connection:detect_all:145 - ============================================================
+2026-08-04 22:09:29.398 | INFO     | mt5.connection:detect_all:146 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 22:09:29.400 | INFO     | mt5.connection:detect_all:147 - ============================================================
+2026-08-04 22:09:29.400 | INFO     | mt5.connection:detect_all:152 - 
+[Detection] Checking Windows Registry...
+2026-08-04 22:09:29.401 | DEBUG    | mt5.connection:find_in_registry:34 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 22:09:29.403 | INFO     | mt5.connection:detect_all:157 - [Detection] Scanning Program Files...
+2026-08-04 22:09:29.404 | DEBUG    | mt5.connection:find_in_program_files:72 - Scanning Program Files directories...
+2026-08-04 22:09:29.404 | DEBUG    | mt5.connection:find_in_program_files:84 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:09:29.429 | INFO     | mt5.connection:detect_all:162 - [Detection] Checking running processes...
+2026-08-04 22:09:29.430 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:09:29.463 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:09:29.474 | INFO     | mt5.connection:detect_all:177 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 22:09:29.475 | INFO     | mt5.connection:detect_all:179 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:09:29.476 | INFO     | mt5.connection:detect_all:184 - ============================================================
+2026-08-04 22:09:29.477 | INFO     | mt5.connection:_detect_and_select_terminal:228 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:09:29.479 | DEBUG    | mt5.connection:find_running_processes:113 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:09:29.485 | DEBUG    | mt5.connection:find_running_processes:127 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:09:29.489 | INFO     | mt5.connection:connect:256 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:09:29.490 | INFO     | mt5.connection:connect:259 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 22:09:29.490 | INFO     | mt5.connection:connect:260 -   Account: 110567631
+2026-08-04 22:09:29.491 | INFO     | mt5.connection:connect:261 -   Server: MetaQuotes-Demo
+2026-08-04 22:09:29.492 | INFO     | mt5.connection:connect:262 -   Timeout: 60000ms (60 seconds)
+2026-08-04 22:09:29.492 | INFO     | mt5.connection:connect:263 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:09:29.495 | INFO     | mt5.connection:connect:275 -   mt5.initialize() returned: True
+2026-08-04 22:09:29.496 | INFO     | mt5.connection:connect:294 -   ✓ Initialization SUCCESSFUL
+2026-08-04 22:09:29.496 | INFO     | mt5.connection:connect:301 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 22:09:29.497 | INFO     | mt5.connection:connect:306 -   ✓ Version: 500
+2026-08-04 22:09:29.497 | INFO     | mt5.connection:connect:307 -   Build: 6090
+2026-08-04 22:09:29.498 | INFO     | mt5.connection:connect:308 -   Release: 31 Jul 2026
+2026-08-04 22:09:29.498 | INFO     | mt5.connection:connect:315 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 22:09:29.500 | DEBUG    | mt5.connection:connect:320 -   Terminal Info object: TerminalInfo(community_account=False, community_connection=False, connected=True, dlls_allowed=True, trade_allowed=False, tradeapi_disabled=False, email_enabled=False, ftp_enabled=False, notifications_enabled=False, mqid=True, build=6090, maxbars=100000, codepage=0, ping_last=150578, community_balance=0.0, retransmission=0.9073210153179297, company='MetaQuotes Ltd.', name='MetaTrader 5', language='English', path='C:\\Program Files\\MetaTrader 5', data_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075', commondata_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\Common')
+2026-08-04 22:09:29.501 | INFO     | mt5.connection:connect:329 -   ✓ Terminal connected: True
+2026-08-04 22:09:29.501 | INFO     | mt5.connection:connect:330 -   ✓ Trade allowed: False
+2026-08-04 22:09:29.502 | INFO     | mt5.connection:connect:331 -   ✓ TradeAPI disabled: False
+2026-08-04 22:09:29.502 | WARNING  | mt5.connection:connect:336 -   ⚠ Trading not allowed in terminal
+2026-08-04 22:09:29.503 | INFO     | mt5.connection:connect:347 - 
+[STEP 5] VERIFYING ACCOUNT INFO
+2026-08-04 22:09:29.504 | INFO     | mt5.connection:connect:352 -   ✓ Login: 110567631
+2026-08-04 22:09:29.504 | INFO     | mt5.connection:connect:353 -   ✓ Name: Sai Gangawane
+2026-08-04 22:09:29.505 | INFO     | mt5.connection:connect:354 -   ✓ Balance: 4998.37
+2026-08-04 22:09:29.506 | INFO     | mt5.connection:connect:355 -   ✓ Equity: 4998.37
+2026-08-04 22:09:29.506 | INFO     | mt5.connection:connect:356 -   ✓ Trade mode: 0
+2026-08-04 22:09:29.507 | INFO     | mt5.connection:connect:357 -   ✓ Trade allowed: True
+2026-08-04 22:09:29.507 | INFO     | mt5.connection:connect:370 - 
+============================================================
+2026-08-04 22:09:29.507 | INFO     | mt5.connection:connect:371 - ✓ MT5 CONNECTION SUCCESSFUL
+2026-08-04 22:09:29.508 | INFO     | mt5.connection:connect:372 - ============================================================
+2026-08-04 22:09:29.508 | ERROR    | mt5.connection:is_demo:386 - Account 110567631 is NOT demo (trade_mode=0). Trading refused.
+2026-08-04 22:09:29.509 | INFO     | mt5.connection:disconnect:436 - MT5 disconnected
+2026-08-04 22:09:29.509 | ERROR    | __main__:main:41 - TradeManager failed to start: Account is not DEMO. Trading refused.
+2026-08-04 22:17:40.349 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 22:17:40.350 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 22:17:40.351 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 22:17:40.357 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 22:17:40.357 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 22:17:40.358 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 22:17:40.359 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 22:17:40.359 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 22:17:40.359 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 22:17:40.360 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 22:17:40.360 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 22:17:40.360 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 22:17:40.361 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 22:17:40.361 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 22:17:40.361 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 22:17:40.362 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 22:17:40.362 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 22:17:40.366 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 22:17:40.367 | INFO     | mt5.connection:connect:245 - 
+============================================================
+2026-08-04 22:17:40.367 | INFO     | mt5.connection:connect:246 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 22:17:40.368 | INFO     | mt5.connection:connect:247 - ============================================================
+2026-08-04 22:17:40.368 | INFO     | mt5.connection:connect:250 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 22:17:40.369 | INFO     | mt5.connection:detect_all:144 - ============================================================
+2026-08-04 22:17:40.369 | INFO     | mt5.connection:detect_all:145 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 22:17:40.370 | INFO     | mt5.connection:detect_all:146 - ============================================================
+2026-08-04 22:17:40.370 | INFO     | mt5.connection:detect_all:151 - 
+[Detection] Checking Windows Registry...
+2026-08-04 22:17:40.371 | DEBUG    | mt5.connection:find_in_registry:33 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 22:17:40.372 | INFO     | mt5.connection:detect_all:156 - [Detection] Scanning Program Files...
+2026-08-04 22:17:40.372 | DEBUG    | mt5.connection:find_in_program_files:71 - Scanning Program Files directories...
+2026-08-04 22:17:40.372 | DEBUG    | mt5.connection:find_in_program_files:83 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:17:40.377 | INFO     | mt5.connection:detect_all:161 - [Detection] Checking running processes...
+2026-08-04 22:17:40.378 | DEBUG    | mt5.connection:find_running_processes:112 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:17:40.399 | DEBUG    | mt5.connection:find_running_processes:126 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:17:40.407 | INFO     | mt5.connection:detect_all:176 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 22:17:40.407 | INFO     | mt5.connection:detect_all:178 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:17:40.408 | INFO     | mt5.connection:detect_all:183 - ============================================================
+2026-08-04 22:17:40.408 | INFO     | mt5.connection:_detect_and_select_terminal:227 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:17:40.409 | DEBUG    | mt5.connection:find_running_processes:112 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:17:40.411 | DEBUG    | mt5.connection:find_running_processes:126 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:17:40.414 | INFO     | mt5.connection:connect:255 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:17:40.415 | INFO     | mt5.connection:connect:258 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 22:17:40.415 | INFO     | mt5.connection:connect:259 -   Account: 110567631
+2026-08-04 22:17:40.415 | INFO     | mt5.connection:connect:260 -   Server: MetaQuotes-Demo
+2026-08-04 22:17:40.417 | INFO     | mt5.connection:connect:261 -   Timeout: 60000ms (60 seconds)
+2026-08-04 22:17:40.418 | INFO     | mt5.connection:connect:262 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:17:40.421 | INFO     | mt5.connection:connect:274 -   mt5.initialize() returned: True
+2026-08-04 22:17:40.422 | INFO     | mt5.connection:connect:293 -   ✓ Initialization SUCCESSFUL
+2026-08-04 22:17:40.423 | INFO     | mt5.connection:connect:300 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 22:17:40.424 | INFO     | mt5.connection:connect:305 -   ✓ Version: 500
+2026-08-04 22:17:40.424 | INFO     | mt5.connection:connect:306 -   Build: 6090
+2026-08-04 22:17:40.424 | INFO     | mt5.connection:connect:307 -   Release: 31 Jul 2026
+2026-08-04 22:17:40.424 | INFO     | mt5.connection:connect:314 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 22:17:40.426 | DEBUG    | mt5.connection:connect:319 -   Terminal Info object: TerminalInfo(community_account=False, community_connection=False, connected=True, dlls_allowed=True, trade_allowed=False, tradeapi_disabled=False, email_enabled=False, ftp_enabled=False, notifications_enabled=False, mqid=True, build=6090, maxbars=100000, codepage=0, ping_last=150578, community_balance=0.0, retransmission=3.424797998441409, company='MetaQuotes Ltd.', name='MetaTrader 5', language='English', path='C:\\Program Files\\MetaTrader 5', data_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075', commondata_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\Common')
+2026-08-04 22:17:40.427 | INFO     | mt5.connection:connect:328 -   ✓ Terminal connected: True
+2026-08-04 22:17:40.427 | INFO     | mt5.connection:connect:329 -   ✓ Trade allowed: False
+2026-08-04 22:17:40.428 | INFO     | mt5.connection:connect:330 -   ✓ TradeAPI disabled: False
+2026-08-04 22:17:40.428 | WARNING  | mt5.connection:connect:335 -   ⚠ Trading not allowed in terminal
+2026-08-04 22:17:40.429 | INFO     | mt5.connection:connect:346 - 
+[STEP 5] VERIFYING ACCOUNT INFO
+2026-08-04 22:17:40.429 | INFO     | mt5.connection:connect:351 -   ✓ Login: 110567631
+2026-08-04 22:17:40.430 | INFO     | mt5.connection:connect:352 -   ✓ Name: Sai Gangawane
+2026-08-04 22:17:40.430 | INFO     | mt5.connection:connect:353 -   ✓ Balance: 4998.37
+2026-08-04 22:17:40.431 | INFO     | mt5.connection:connect:354 -   ✓ Equity: 4998.37
+2026-08-04 22:17:40.431 | INFO     | mt5.connection:connect:356 -   ✓ Account Type: DEMO (trade_mode=0)
+2026-08-04 22:17:40.431 | INFO     | mt5.connection:connect:357 -   ✓ Trade allowed: True
+2026-08-04 22:17:40.431 | INFO     | mt5.connection:connect:370 - 
+============================================================
+2026-08-04 22:17:40.432 | INFO     | mt5.connection:connect:371 - ✓ MT5 CONNECTION SUCCESSFUL
+2026-08-04 22:17:40.432 | INFO     | mt5.connection:connect:372 - ============================================================
+2026-08-04 22:17:40.433 | INFO     | mt5.connection:is_demo:405 - Account 110567631 confirmed as DEMO
+2026-08-04 22:17:40.433 | ERROR    | mt5.connection:is_trading_enabled:443 - Trading is not allowed in terminal
+2026-08-04 22:17:40.433 | INFO     | mt5.connection:disconnect:471 - MT5 disconnected
+2026-08-04 22:17:40.434 | ERROR    | __main__:main:41 - TradeManager failed to start: Trading is not enabled
+2026-08-04 22:18:05.130 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 22:18:05.131 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 22:18:05.131 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 22:18:05.134 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 22:18:05.135 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 22:18:05.135 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 22:18:05.136 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 22:18:05.136 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 22:18:05.136 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 22:18:05.137 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 22:18:05.137 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 22:18:05.137 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 22:18:05.138 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 22:18:05.139 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 22:18:05.139 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 22:18:05.140 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 22:18:05.140 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 22:18:05.140 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 22:18:05.141 | INFO     | mt5.connection:connect:245 - 
+============================================================
+2026-08-04 22:18:05.141 | INFO     | mt5.connection:connect:246 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 22:18:05.142 | INFO     | mt5.connection:connect:247 - ============================================================
+2026-08-04 22:18:05.142 | INFO     | mt5.connection:connect:250 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 22:18:05.143 | INFO     | mt5.connection:detect_all:144 - ============================================================
+2026-08-04 22:18:05.143 | INFO     | mt5.connection:detect_all:145 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 22:18:05.143 | INFO     | mt5.connection:detect_all:146 - ============================================================
+2026-08-04 22:18:05.144 | INFO     | mt5.connection:detect_all:151 - 
+[Detection] Checking Windows Registry...
+2026-08-04 22:18:05.144 | DEBUG    | mt5.connection:find_in_registry:33 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 22:18:05.145 | INFO     | mt5.connection:detect_all:156 - [Detection] Scanning Program Files...
+2026-08-04 22:18:05.145 | DEBUG    | mt5.connection:find_in_program_files:71 - Scanning Program Files directories...
+2026-08-04 22:18:05.145 | DEBUG    | mt5.connection:find_in_program_files:83 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:18:05.153 | INFO     | mt5.connection:detect_all:161 - [Detection] Checking running processes...
+2026-08-04 22:18:05.153 | DEBUG    | mt5.connection:find_running_processes:112 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:18:05.175 | DEBUG    | mt5.connection:find_running_processes:126 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:18:05.183 | INFO     | mt5.connection:detect_all:176 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 22:18:05.184 | INFO     | mt5.connection:detect_all:178 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:18:05.184 | INFO     | mt5.connection:detect_all:183 - ============================================================
+2026-08-04 22:18:05.185 | INFO     | mt5.connection:_detect_and_select_terminal:227 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:18:05.186 | DEBUG    | mt5.connection:find_running_processes:112 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:18:05.189 | DEBUG    | mt5.connection:find_running_processes:126 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:18:05.191 | INFO     | mt5.connection:connect:255 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:18:05.193 | INFO     | mt5.connection:connect:258 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 22:18:05.193 | INFO     | mt5.connection:connect:259 -   Account: 110567631
+2026-08-04 22:18:05.193 | INFO     | mt5.connection:connect:260 -   Server: MetaQuotes-Demo
+2026-08-04 22:18:05.194 | INFO     | mt5.connection:connect:261 -   Timeout: 60000ms (60 seconds)
+2026-08-04 22:18:05.194 | INFO     | mt5.connection:connect:262 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:18:05.197 | INFO     | mt5.connection:connect:274 -   mt5.initialize() returned: True
+2026-08-04 22:18:05.198 | INFO     | mt5.connection:connect:293 -   ✓ Initialization SUCCESSFUL
+2026-08-04 22:18:05.199 | INFO     | mt5.connection:connect:300 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 22:18:05.199 | INFO     | mt5.connection:connect:305 -   ✓ Version: 500
+2026-08-04 22:18:05.200 | INFO     | mt5.connection:connect:306 -   Build: 6090
+2026-08-04 22:18:05.200 | INFO     | mt5.connection:connect:307 -   Release: 31 Jul 2026
+2026-08-04 22:18:05.201 | INFO     | mt5.connection:connect:314 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 22:18:05.202 | DEBUG    | mt5.connection:connect:319 -   Terminal Info object: TerminalInfo(community_account=False, community_connection=False, connected=True, dlls_allowed=True, trade_allowed=False, tradeapi_disabled=False, email_enabled=False, ftp_enabled=False, notifications_enabled=False, mqid=True, build=6090, maxbars=100000, codepage=0, ping_last=150578, community_balance=0.0, retransmission=3.424797998441409, company='MetaQuotes Ltd.', name='MetaTrader 5', language='English', path='C:\\Program Files\\MetaTrader 5', data_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075', commondata_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\Common')
+2026-08-04 22:18:05.203 | INFO     | mt5.connection:connect:328 -   ✓ Terminal connected: True
+2026-08-04 22:18:05.203 | INFO     | mt5.connection:connect:329 -   ✓ Trade allowed: False
+2026-08-04 22:18:05.204 | INFO     | mt5.connection:connect:330 -   ✓ TradeAPI disabled: False
+2026-08-04 22:18:05.204 | WARNING  | mt5.connection:connect:335 -   ⚠ Trading not allowed in terminal
+2026-08-04 22:18:05.205 | INFO     | mt5.connection:connect:346 - 
+[STEP 5] VERIFYING ACCOUNT INFO
+2026-08-04 22:18:05.206 | INFO     | mt5.connection:connect:351 -   ✓ Login: 110567631
+2026-08-04 22:18:05.207 | INFO     | mt5.connection:connect:352 -   ✓ Name: Sai Gangawane
+2026-08-04 22:18:05.207 | INFO     | mt5.connection:connect:353 -   ✓ Balance: 4998.37
+2026-08-04 22:18:05.208 | INFO     | mt5.connection:connect:354 -   ✓ Equity: 4998.37
+2026-08-04 22:18:05.208 | INFO     | mt5.connection:connect:356 -   ✓ Account Type: DEMO (trade_mode=0)
+2026-08-04 22:18:05.208 | INFO     | mt5.connection:connect:357 -   ✓ Trade allowed: True
+2026-08-04 22:18:05.209 | INFO     | mt5.connection:connect:370 - 
+============================================================
+2026-08-04 22:18:05.209 | INFO     | mt5.connection:connect:371 - ✓ MT5 CONNECTION SUCCESSFUL
+2026-08-04 22:18:05.210 | INFO     | mt5.connection:connect:372 - ============================================================
+2026-08-04 22:18:05.210 | INFO     | mt5.connection:is_demo:405 - Account 110567631 confirmed as DEMO
+2026-08-04 22:18:05.210 | ERROR    | mt5.connection:is_trading_enabled:443 - Trading is not allowed in terminal
+2026-08-04 22:18:05.211 | INFO     | mt5.connection:disconnect:471 - MT5 disconnected
+2026-08-04 22:18:05.211 | ERROR    | __main__:main:41 - TradeManager failed to start: Trading is not enabled
+2026-08-04 22:22:25.513 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 22:22:25.515 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 22:22:25.515 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 22:22:25.522 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 22:22:25.522 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 22:22:25.523 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 22:22:25.524 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 22:22:25.525 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 22:22:25.526 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 22:22:25.527 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 22:22:25.528 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 22:22:25.528 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 22:22:25.530 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 22:22:25.530 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 22:22:25.531 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 22:22:25.531 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 22:22:25.532 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 22:22:25.533 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 22:22:25.533 | INFO     | mt5.connection:connect:245 - 
+============================================================
+2026-08-04 22:22:25.540 | INFO     | mt5.connection:connect:246 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 22:22:25.541 | INFO     | mt5.connection:connect:247 - ============================================================
+2026-08-04 22:22:25.541 | INFO     | mt5.connection:connect:250 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 22:22:25.542 | INFO     | mt5.connection:detect_all:144 - ============================================================
+2026-08-04 22:22:25.543 | INFO     | mt5.connection:detect_all:145 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 22:22:25.543 | INFO     | mt5.connection:detect_all:146 - ============================================================
+2026-08-04 22:22:25.544 | INFO     | mt5.connection:detect_all:151 - 
+[Detection] Checking Windows Registry...
+2026-08-04 22:22:25.545 | DEBUG    | mt5.connection:find_in_registry:33 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 22:22:25.548 | INFO     | mt5.connection:detect_all:156 - [Detection] Scanning Program Files...
+2026-08-04 22:22:25.549 | DEBUG    | mt5.connection:find_in_program_files:71 - Scanning Program Files directories...
+2026-08-04 22:22:25.549 | DEBUG    | mt5.connection:find_in_program_files:83 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:22:25.554 | INFO     | mt5.connection:detect_all:161 - [Detection] Checking running processes...
+2026-08-04 22:22:25.555 | DEBUG    | mt5.connection:find_running_processes:112 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:22:25.585 | DEBUG    | mt5.connection:find_running_processes:126 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:22:25.595 | INFO     | mt5.connection:detect_all:176 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 22:22:25.595 | INFO     | mt5.connection:detect_all:178 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:22:25.596 | INFO     | mt5.connection:detect_all:183 - ============================================================
+2026-08-04 22:22:25.597 | INFO     | mt5.connection:_detect_and_select_terminal:227 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:22:25.597 | DEBUG    | mt5.connection:find_running_processes:112 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:22:25.600 | DEBUG    | mt5.connection:find_running_processes:126 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:22:25.603 | INFO     | mt5.connection:connect:255 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:22:25.603 | INFO     | mt5.connection:connect:258 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 22:22:25.604 | INFO     | mt5.connection:connect:259 -   Account: 110567631
+2026-08-04 22:22:25.604 | INFO     | mt5.connection:connect:260 -   Server: MetaQuotes-Demo
+2026-08-04 22:22:25.604 | INFO     | mt5.connection:connect:261 -   Timeout: 60000ms (60 seconds)
+2026-08-04 22:22:25.605 | INFO     | mt5.connection:connect:262 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:22:25.609 | INFO     | mt5.connection:connect:274 -   mt5.initialize() returned: True
+2026-08-04 22:22:25.609 | INFO     | mt5.connection:connect:293 -   ✓ Initialization SUCCESSFUL
+2026-08-04 22:22:25.610 | INFO     | mt5.connection:connect:300 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 22:22:25.610 | INFO     | mt5.connection:connect:305 -   ✓ Version: 500
+2026-08-04 22:22:25.611 | INFO     | mt5.connection:connect:306 -   Build: 6090
+2026-08-04 22:22:25.611 | INFO     | mt5.connection:connect:307 -   Release: 31 Jul 2026
+2026-08-04 22:22:25.612 | INFO     | mt5.connection:connect:314 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 22:22:25.613 | DEBUG    | mt5.connection:connect:319 -   Terminal Info object: TerminalInfo(community_account=False, community_connection=False, connected=True, dlls_allowed=True, trade_allowed=True, tradeapi_disabled=False, email_enabled=False, ftp_enabled=False, notifications_enabled=False, mqid=True, build=6090, maxbars=100000, codepage=0, ping_last=150578, community_balance=0.0, retransmission=3.424797998441409, company='MetaQuotes Ltd.', name='MetaTrader 5', language='English', path='C:\\Program Files\\MetaTrader 5', data_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075', commondata_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\Common')
+2026-08-04 22:22:25.614 | INFO     | mt5.connection:connect:328 -   ✓ Terminal connected: True
+2026-08-04 22:22:25.614 | INFO     | mt5.connection:connect:329 -   ✓ Trade allowed: True
+2026-08-04 22:22:25.614 | INFO     | mt5.connection:connect:330 -   ✓ TradeAPI disabled: False
+2026-08-04 22:22:25.615 | INFO     | mt5.connection:connect:346 - 
+[STEP 5] VERIFYING ACCOUNT INFO
+2026-08-04 22:22:25.615 | INFO     | mt5.connection:connect:351 -   ✓ Login: 110567631
+2026-08-04 22:22:25.615 | INFO     | mt5.connection:connect:352 -   ✓ Name: Sai Gangawane
+2026-08-04 22:22:25.616 | INFO     | mt5.connection:connect:353 -   ✓ Balance: 4998.37
+2026-08-04 22:22:25.616 | INFO     | mt5.connection:connect:354 -   ✓ Equity: 4998.37
+2026-08-04 22:22:25.616 | INFO     | mt5.connection:connect:356 -   ✓ Account Type: DEMO (trade_mode=0)
+2026-08-04 22:22:25.617 | INFO     | mt5.connection:connect:357 -   ✓ Trade allowed: True
+2026-08-04 22:22:25.617 | INFO     | mt5.connection:connect:370 - 
+============================================================
+2026-08-04 22:22:25.618 | INFO     | mt5.connection:connect:371 - ✓ MT5 CONNECTION SUCCESSFUL
+2026-08-04 22:22:25.618 | INFO     | mt5.connection:connect:372 - ============================================================
+2026-08-04 22:22:25.621 | INFO     | mt5.connection:is_demo:405 - Account 110567631 confirmed as DEMO
+2026-08-04 22:22:25.621 | INFO     | mt5.connection:is_trading_enabled:457 - Trading enabled
+2026-08-04 22:22:25.622 | INFO     | mt5.trade_manager:start:49 - TradeManager connected and ready
+2026-08-04 22:22:25.669 | INFO     | telegram.client:__init__:21 - Telegram client initialized
+2026-08-04 22:22:25.670 | INFO     | telegram.listener:__init__:22 - TelegramListener initialized for channel: @Gary_TheTrader
+2026-08-04 22:22:53.492 | INFO     | telegram.client:stop:31 - Telegram client stopped
+2026-08-04 22:22:53.494 | INFO     | mt5.connection:disconnect:471 - MT5 disconnected
+2026-08-04 22:22:53.494 | INFO     | mt5.trade_manager:stop:54 - TradeManager stopped
+2026-08-04 22:23:16.537 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 22:23:16.538 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 22:23:16.538 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 22:23:16.542 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 22:23:16.543 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 22:23:16.545 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 22:23:16.546 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 22:23:16.549 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 22:23:16.552 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 22:23:16.553 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 22:23:16.555 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 22:23:16.557 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 22:23:16.557 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 22:23:16.560 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 22:23:16.561 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 22:23:16.562 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 22:23:16.564 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 22:23:16.565 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 22:23:16.565 | INFO     | mt5.connection:connect:245 - 
+============================================================
+2026-08-04 22:23:16.566 | INFO     | mt5.connection:connect:246 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 22:23:16.566 | INFO     | mt5.connection:connect:247 - ============================================================
+2026-08-04 22:23:16.568 | INFO     | mt5.connection:connect:250 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 22:23:16.569 | INFO     | mt5.connection:detect_all:144 - ============================================================
+2026-08-04 22:23:16.569 | INFO     | mt5.connection:detect_all:145 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 22:23:16.570 | INFO     | mt5.connection:detect_all:146 - ============================================================
+2026-08-04 22:23:16.571 | INFO     | mt5.connection:detect_all:151 - 
+[Detection] Checking Windows Registry...
+2026-08-04 22:23:16.572 | DEBUG    | mt5.connection:find_in_registry:33 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 22:23:16.572 | INFO     | mt5.connection:detect_all:156 - [Detection] Scanning Program Files...
+2026-08-04 22:23:16.573 | DEBUG    | mt5.connection:find_in_program_files:71 - Scanning Program Files directories...
+2026-08-04 22:23:16.574 | DEBUG    | mt5.connection:find_in_program_files:83 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:23:16.581 | INFO     | mt5.connection:detect_all:161 - [Detection] Checking running processes...
+2026-08-04 22:23:16.581 | DEBUG    | mt5.connection:find_running_processes:112 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:23:16.604 | DEBUG    | mt5.connection:find_running_processes:126 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:23:16.611 | INFO     | mt5.connection:detect_all:176 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 22:23:16.614 | INFO     | mt5.connection:detect_all:178 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:23:16.614 | INFO     | mt5.connection:detect_all:183 - ============================================================
+2026-08-04 22:23:16.615 | INFO     | mt5.connection:_detect_and_select_terminal:227 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:23:16.615 | DEBUG    | mt5.connection:find_running_processes:112 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:23:16.619 | DEBUG    | mt5.connection:find_running_processes:126 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:23:16.621 | INFO     | mt5.connection:connect:255 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:23:16.623 | INFO     | mt5.connection:connect:258 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 22:23:16.623 | INFO     | mt5.connection:connect:259 -   Account: 110567631
+2026-08-04 22:23:16.624 | INFO     | mt5.connection:connect:260 -   Server: MetaQuotes-Demo
+2026-08-04 22:23:16.624 | INFO     | mt5.connection:connect:261 -   Timeout: 60000ms (60 seconds)
+2026-08-04 22:23:16.625 | INFO     | mt5.connection:connect:262 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:23:16.628 | INFO     | mt5.connection:connect:274 -   mt5.initialize() returned: True
+2026-08-04 22:23:16.628 | INFO     | mt5.connection:connect:293 -   ✓ Initialization SUCCESSFUL
+2026-08-04 22:23:16.629 | INFO     | mt5.connection:connect:300 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 22:23:16.630 | INFO     | mt5.connection:connect:305 -   ✓ Version: 500
+2026-08-04 22:23:16.631 | INFO     | mt5.connection:connect:306 -   Build: 6090
+2026-08-04 22:23:16.631 | INFO     | mt5.connection:connect:307 -   Release: 31 Jul 2026
+2026-08-04 22:23:16.631 | INFO     | mt5.connection:connect:314 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 22:23:16.633 | DEBUG    | mt5.connection:connect:319 -   Terminal Info object: TerminalInfo(community_account=False, community_connection=False, connected=True, dlls_allowed=True, trade_allowed=True, tradeapi_disabled=False, email_enabled=False, ftp_enabled=False, notifications_enabled=False, mqid=True, build=6090, maxbars=100000, codepage=0, ping_last=150578, community_balance=0.0, retransmission=4.081986393378688, company='MetaQuotes Ltd.', name='MetaTrader 5', language='English', path='C:\\Program Files\\MetaTrader 5', data_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075', commondata_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\Common')
+2026-08-04 22:23:16.634 | INFO     | mt5.connection:connect:328 -   ✓ Terminal connected: True
+2026-08-04 22:23:16.635 | INFO     | mt5.connection:connect:329 -   ✓ Trade allowed: True
+2026-08-04 22:23:16.635 | INFO     | mt5.connection:connect:330 -   ✓ TradeAPI disabled: False
+2026-08-04 22:23:16.635 | INFO     | mt5.connection:connect:346 - 
+[STEP 5] VERIFYING ACCOUNT INFO
+2026-08-04 22:23:16.636 | INFO     | mt5.connection:connect:351 -   ✓ Login: 110567631
+2026-08-04 22:23:16.636 | INFO     | mt5.connection:connect:352 -   ✓ Name: Sai Gangawane
+2026-08-04 22:23:16.637 | INFO     | mt5.connection:connect:353 -   ✓ Balance: 4998.37
+2026-08-04 22:23:16.637 | INFO     | mt5.connection:connect:354 -   ✓ Equity: 4998.37
+2026-08-04 22:23:16.638 | INFO     | mt5.connection:connect:356 -   ✓ Account Type: DEMO (trade_mode=0)
+2026-08-04 22:23:16.639 | INFO     | mt5.connection:connect:357 -   ✓ Trade allowed: True
+2026-08-04 22:23:16.640 | INFO     | mt5.connection:connect:370 - 
+============================================================
+2026-08-04 22:23:16.640 | INFO     | mt5.connection:connect:371 - ✓ MT5 CONNECTION SUCCESSFUL
+2026-08-04 22:23:16.640 | INFO     | mt5.connection:connect:372 - ============================================================
+2026-08-04 22:23:16.641 | INFO     | mt5.connection:is_demo:405 - Account 110567631 confirmed as DEMO
+2026-08-04 22:23:16.641 | INFO     | mt5.connection:is_trading_enabled:457 - Trading enabled
+2026-08-04 22:23:16.641 | INFO     | mt5.trade_manager:start:49 - TradeManager connected and ready
+2026-08-04 22:23:16.643 | INFO     | telegram.client:__init__:21 - Telegram client initialized
+2026-08-04 22:23:16.644 | INFO     | telegram.listener:__init__:22 - TelegramListener initialized for channel: @Gary_TheTrader
+2026-08-04 22:23:32.921 | INFO     | telegram.client:stop:31 - Telegram client stopped
+2026-08-04 22:23:32.924 | INFO     | mt5.connection:disconnect:471 - MT5 disconnected
+2026-08-04 22:23:32.925 | INFO     | mt5.trade_manager:stop:54 - TradeManager stopped
+2026-08-04 22:27:03.476 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 22:27:03.477 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 22:27:03.477 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 22:27:03.480 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 22:27:03.481 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 22:27:03.481 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 22:27:03.482 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 22:27:03.483 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 22:27:03.483 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 22:27:03.484 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 22:27:03.484 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 22:27:03.485 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 22:27:03.485 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 22:27:03.485 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 22:27:03.486 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 22:27:03.486 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 22:27:03.487 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 22:27:03.487 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 22:27:03.487 | INFO     | mt5.connection:connect:245 - 
+============================================================
+2026-08-04 22:27:03.488 | INFO     | mt5.connection:connect:246 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 22:27:03.489 | INFO     | mt5.connection:connect:247 - ============================================================
+2026-08-04 22:27:03.489 | INFO     | mt5.connection:connect:250 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 22:27:03.490 | INFO     | mt5.connection:detect_all:144 - ============================================================
+2026-08-04 22:27:03.490 | INFO     | mt5.connection:detect_all:145 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 22:27:03.491 | INFO     | mt5.connection:detect_all:146 - ============================================================
+2026-08-04 22:27:03.491 | INFO     | mt5.connection:detect_all:151 - 
+[Detection] Checking Windows Registry...
+2026-08-04 22:27:03.492 | DEBUG    | mt5.connection:find_in_registry:33 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 22:27:03.495 | INFO     | mt5.connection:detect_all:156 - [Detection] Scanning Program Files...
+2026-08-04 22:27:03.496 | DEBUG    | mt5.connection:find_in_program_files:71 - Scanning Program Files directories...
+2026-08-04 22:27:03.503 | DEBUG    | mt5.connection:find_in_program_files:83 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:27:03.509 | INFO     | mt5.connection:detect_all:161 - [Detection] Checking running processes...
+2026-08-04 22:27:03.510 | DEBUG    | mt5.connection:find_running_processes:112 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:27:03.530 | DEBUG    | mt5.connection:find_running_processes:126 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:27:03.537 | INFO     | mt5.connection:detect_all:176 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 22:27:03.540 | INFO     | mt5.connection:detect_all:178 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:27:03.542 | INFO     | mt5.connection:detect_all:183 - ============================================================
+2026-08-04 22:27:03.543 | INFO     | mt5.connection:_detect_and_select_terminal:227 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:27:03.544 | DEBUG    | mt5.connection:find_running_processes:112 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:27:03.548 | DEBUG    | mt5.connection:find_running_processes:126 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:27:03.551 | INFO     | mt5.connection:connect:255 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:27:03.552 | INFO     | mt5.connection:connect:258 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 22:27:03.552 | INFO     | mt5.connection:connect:259 -   Account: 110567631
+2026-08-04 22:27:03.553 | INFO     | mt5.connection:connect:260 -   Server: MetaQuotes-Demo
+2026-08-04 22:27:03.553 | INFO     | mt5.connection:connect:261 -   Timeout: 60000ms (60 seconds)
+2026-08-04 22:27:03.554 | INFO     | mt5.connection:connect:262 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:27:03.557 | INFO     | mt5.connection:connect:274 -   mt5.initialize() returned: True
+2026-08-04 22:27:03.558 | INFO     | mt5.connection:connect:293 -   ✓ Initialization SUCCESSFUL
+2026-08-04 22:27:03.558 | INFO     | mt5.connection:connect:300 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 22:27:03.559 | INFO     | mt5.connection:connect:305 -   ✓ Version: 500
+2026-08-04 22:27:03.559 | INFO     | mt5.connection:connect:306 -   Build: 6090
+2026-08-04 22:27:03.560 | INFO     | mt5.connection:connect:307 -   Release: 31 Jul 2026
+2026-08-04 22:27:03.560 | INFO     | mt5.connection:connect:314 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 22:27:03.562 | DEBUG    | mt5.connection:connect:319 -   Terminal Info object: TerminalInfo(community_account=False, community_connection=False, connected=True, dlls_allowed=True, trade_allowed=True, tradeapi_disabled=False, email_enabled=False, ftp_enabled=False, notifications_enabled=False, mqid=True, build=6090, maxbars=100000, codepage=0, ping_last=150578, community_balance=0.0, retransmission=4.081986393378688, company='MetaQuotes Ltd.', name='MetaTrader 5', language='English', path='C:\\Program Files\\MetaTrader 5', data_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075', commondata_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\Common')
+2026-08-04 22:27:03.562 | INFO     | mt5.connection:connect:328 -   ✓ Terminal connected: True
+2026-08-04 22:27:03.563 | INFO     | mt5.connection:connect:329 -   ✓ Trade allowed: True
+2026-08-04 22:27:03.563 | INFO     | mt5.connection:connect:330 -   ✓ TradeAPI disabled: False
+2026-08-04 22:27:03.564 | INFO     | mt5.connection:connect:346 - 
+[STEP 5] VERIFYING ACCOUNT INFO
+2026-08-04 22:27:03.565 | INFO     | mt5.connection:connect:351 -   ✓ Login: 110567631
+2026-08-04 22:27:03.566 | INFO     | mt5.connection:connect:352 -   ✓ Name: Sai Gangawane
+2026-08-04 22:27:03.567 | INFO     | mt5.connection:connect:353 -   ✓ Balance: 4998.37
+2026-08-04 22:27:03.567 | INFO     | mt5.connection:connect:354 -   ✓ Equity: 4998.37
+2026-08-04 22:27:03.568 | INFO     | mt5.connection:connect:356 -   ✓ Account Type: DEMO (trade_mode=0)
+2026-08-04 22:27:03.568 | INFO     | mt5.connection:connect:357 -   ✓ Trade allowed: True
+2026-08-04 22:27:03.568 | INFO     | mt5.connection:connect:370 - 
+============================================================
+2026-08-04 22:27:03.569 | INFO     | mt5.connection:connect:371 - ✓ MT5 CONNECTION SUCCESSFUL
+2026-08-04 22:27:03.569 | INFO     | mt5.connection:connect:372 - ============================================================
+2026-08-04 22:27:03.569 | INFO     | mt5.connection:is_demo:405 - Account 110567631 confirmed as DEMO
+2026-08-04 22:27:03.570 | INFO     | mt5.connection:is_trading_enabled:457 - Trading enabled
+2026-08-04 22:27:03.570 | INFO     | mt5.trade_manager:start:49 - TradeManager connected and ready
+2026-08-04 22:27:03.572 | INFO     | telegram.client:__init__:21 - Telegram client initialized
+2026-08-04 22:27:03.572 | INFO     | telegram.listener:__init__:22 - TelegramListener initialized for channel: @Gary_TheTrader
+2026-08-04 22:28:02.473 | INFO     | telegram.client:stop:31 - Telegram client stopped
+2026-08-04 22:28:02.479 | INFO     | mt5.connection:disconnect:471 - MT5 disconnected
+2026-08-04 22:28:02.481 | INFO     | mt5.trade_manager:stop:54 - TradeManager stopped
+2026-08-04 22:28:18.017 | INFO     | __main__:main:19 - ==================================================
+2026-08-04 22:28:18.019 | INFO     | __main__:main:20 - Telegram2MT5 MVP starting (event-driven)...
+2026-08-04 22:28:18.019 | INFO     | __main__:main:21 - ==================================================
+2026-08-04 22:28:18.023 | INFO     | __main__:main:25 - Database initialized
+2026-08-04 22:28:18.023 | INFO     | __main__:main:29 - Event bus created
+2026-08-04 22:28:18.024 | INFO     | signal_engine.state_manager:__init__:25 - SignalStateManager initialized
+2026-08-04 22:28:18.025 | INFO     | telegram.handlers:setup_engine:20 - Signal engine initialized via setup_engine
+2026-08-04 22:28:18.026 | INFO     | __main__:main:33 - Signal engine wired to event bus
+2026-08-04 22:28:18.027 | INFO     | mt5.symbol_resolver:__init__:42 - SymbolResolver loaded with 16 aliases
+2026-08-04 22:28:18.028 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_created
+2026-08-04 22:28:18.028 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_updated
+2026-08-04 22:28:18.029 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_stop_loss
+2026-08-04 22:28:18.033 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to move_take_profit
+2026-08-04 22:28:18.033 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to partial_close
+2026-08-04 22:28:18.034 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to close_trade
+2026-08-04 22:28:18.034 | INFO     | signal_engine.events:subscribe:38 - EventBus: subscribed handler to signal_cancelled
+2026-08-04 22:28:18.035 | INFO     | mt5.trade_manager:subscribe:36 - TradeManager subscribed to event bus
+2026-08-04 22:28:18.035 | INFO     | mt5.trade_manager:start:40 - TradeManager connecting to MT5...
+2026-08-04 22:28:18.036 | INFO     | mt5.connection:connect:245 - 
+============================================================
+2026-08-04 22:28:18.036 | INFO     | mt5.connection:connect:246 - STARTING MT5 CONNECTION SEQUENCE
+2026-08-04 22:28:18.036 | INFO     | mt5.connection:connect:247 - ============================================================
+2026-08-04 22:28:18.037 | INFO     | mt5.connection:connect:250 - 
+[STEP 1] RESOLVING TERMINAL PATH
+2026-08-04 22:28:18.037 | INFO     | mt5.connection:detect_all:144 - ============================================================
+2026-08-04 22:28:18.037 | INFO     | mt5.connection:detect_all:145 - DETECTING METATRADER 5 TERMINAL
+2026-08-04 22:28:18.038 | INFO     | mt5.connection:detect_all:146 - ============================================================
+2026-08-04 22:28:18.039 | INFO     | mt5.connection:detect_all:151 - 
+[Detection] Checking Windows Registry...
+2026-08-04 22:28:18.041 | DEBUG    | mt5.connection:find_in_registry:33 - Scanning Windows Registry for MetaTrader5...
+2026-08-04 22:28:18.042 | INFO     | mt5.connection:detect_all:156 - [Detection] Scanning Program Files...
+2026-08-04 22:28:18.042 | DEBUG    | mt5.connection:find_in_program_files:71 - Scanning Program Files directories...
+2026-08-04 22:28:18.043 | DEBUG    | mt5.connection:find_in_program_files:83 -   ✓ Found at: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:28:18.047 | INFO     | mt5.connection:detect_all:161 - [Detection] Checking running processes...
+2026-08-04 22:28:18.049 | DEBUG    | mt5.connection:find_running_processes:112 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:28:18.082 | DEBUG    | mt5.connection:find_running_processes:126 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:28:18.090 | INFO     | mt5.connection:detect_all:176 - 
+✓ DETECTED 1 terminal path(s):
+2026-08-04 22:28:18.091 | INFO     | mt5.connection:detect_all:178 -   [1] C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:28:18.092 | INFO     | mt5.connection:detect_all:183 - ============================================================
+2026-08-04 22:28:18.092 | INFO     | mt5.connection:_detect_and_select_terminal:227 - 
+[Terminal] Selected terminal: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:28:18.092 | DEBUG    | mt5.connection:find_running_processes:112 - Scanning running processes for MetaTrader5 terminal...
+2026-08-04 22:28:18.095 | DEBUG    | mt5.connection:find_running_processes:126 -   ✓ Found running: terminal64.exe (PID: 17596) - C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:28:18.097 | INFO     | mt5.connection:connect:255 - ✓ Terminal path resolved: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:28:18.100 | INFO     | mt5.connection:connect:258 - 
+[STEP 2] INITIALIZING METATRADER 5
+2026-08-04 22:28:18.100 | INFO     | mt5.connection:connect:259 -   Account: 110567631
+2026-08-04 22:28:18.101 | INFO     | mt5.connection:connect:260 -   Server: MetaQuotes-Demo
+2026-08-04 22:28:18.101 | INFO     | mt5.connection:connect:261 -   Timeout: 60000ms (60 seconds)
+2026-08-04 22:28:18.102 | INFO     | mt5.connection:connect:262 -   Terminal Path: C:\Program Files\MetaTrader 5\terminal64.exe
+2026-08-04 22:28:18.105 | INFO     | mt5.connection:connect:274 -   mt5.initialize() returned: True
+2026-08-04 22:28:18.105 | INFO     | mt5.connection:connect:293 -   ✓ Initialization SUCCESSFUL
+2026-08-04 22:28:18.106 | INFO     | mt5.connection:connect:300 - 
+[STEP 3] CHECKING MT5 VERSION
+2026-08-04 22:28:18.108 | INFO     | mt5.connection:connect:305 -   ✓ Version: 500
+2026-08-04 22:28:18.109 | INFO     | mt5.connection:connect:306 -   Build: 6090
+2026-08-04 22:28:18.109 | INFO     | mt5.connection:connect:307 -   Release: 31 Jul 2026
+2026-08-04 22:28:18.110 | INFO     | mt5.connection:connect:314 - 
+[STEP 4] CHECKING TERMINAL INFO
+2026-08-04 22:28:18.111 | DEBUG    | mt5.connection:connect:319 -   Terminal Info object: TerminalInfo(community_account=False, community_connection=False, connected=True, dlls_allowed=True, trade_allowed=True, tradeapi_disabled=False, email_enabled=False, ftp_enabled=False, notifications_enabled=False, mqid=True, build=6090, maxbars=100000, codepage=0, ping_last=150578, community_balance=0.0, retransmission=2.98500170990278, company='MetaQuotes Ltd.', name='MetaTrader 5', language='English', path='C:\\Program Files\\MetaTrader 5', data_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\D0E8209F77C8CF37AD8BF550E51FF075', commondata_path='C:\\Users\\LAKSH\\AppData\\Roaming\\MetaQuotes\\Terminal\\Common')
+2026-08-04 22:28:18.112 | INFO     | mt5.connection:connect:328 -   ✓ Terminal connected: True
+2026-08-04 22:28:18.113 | INFO     | mt5.connection:connect:329 -   ✓ Trade allowed: True
+2026-08-04 22:28:18.113 | INFO     | mt5.connection:connect:330 -   ✓ TradeAPI disabled: False
+2026-08-04 22:28:18.113 | INFO     | mt5.connection:connect:346 - 
+[STEP 5] VERIFYING ACCOUNT INFO
+2026-08-04 22:28:18.114 | INFO     | mt5.connection:connect:351 -   ✓ Login: 110567631
+2026-08-04 22:28:18.115 | INFO     | mt5.connection:connect:352 -   ✓ Name: Sai Gangawane
+2026-08-04 22:28:18.116 | INFO     | mt5.connection:connect:353 -   ✓ Balance: 4998.37
+2026-08-04 22:28:18.116 | INFO     | mt5.connection:connect:354 -   ✓ Equity: 4998.37
+2026-08-04 22:28:18.117 | INFO     | mt5.connection:connect:356 -   ✓ Account Type: DEMO (trade_mode=0)
+2026-08-04 22:28:18.117 | INFO     | mt5.connection:connect:357 -   ✓ Trade allowed: True
+2026-08-04 22:28:18.118 | INFO     | mt5.connection:connect:370 - 
+============================================================
+2026-08-04 22:28:18.118 | INFO     | mt5.connection:connect:371 - ✓ MT5 CONNECTION SUCCESSFUL
+2026-08-04 22:28:18.118 | INFO     | mt5.connection:connect:372 - ============================================================
+2026-08-04 22:28:18.119 | INFO     | mt5.connection:is_demo:405 - Account 110567631 confirmed as DEMO
+2026-08-04 22:28:18.119 | INFO     | mt5.connection:is_trading_enabled:457 - Trading enabled
+2026-08-04 22:28:18.120 | INFO     | mt5.trade_manager:start:49 - TradeManager connected and ready
+2026-08-04 22:28:18.121 | INFO     | telegram.client:__init__:21 - Telegram client initialized
+2026-08-04 22:28:18.125 | INFO     | telegram.listener:__init__:22 - TelegramListener initialized for channel: @Gary_TheTrader
+2026-08-04 22:28:49.994 | INFO     | telegram.client:start:27 - Logged in as Deep (@DeepHacker07)
+2026-08-04 22:28:50.131 | INFO     | telegram.listener:start:30 - Resolved channel: GARY GOLD TRADER
+2026-08-04 22:28:50.132 | INFO     | telegram.listener:start:45 - Listening for new and edited messages...

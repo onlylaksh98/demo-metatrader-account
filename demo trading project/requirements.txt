@@ -1,0 +1,5 @@
+python-dotenv==1.0.1
+loguru==0.7.2
+MetaTrader5==5.0.6090
+SQLAlchemy==2.0.31
+telethon==1.36.0
